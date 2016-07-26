@@ -91,6 +91,16 @@ hi Search term=standout ctermfg=darkgray ctermbg=lightblue
 set relativenumber
 
 
+"<F1>打开/关闭目录树边框(左)"
+map <F8> :call Echo()<CR>
+func! Echo()
+    :echo expand("%")
+    :echo expand("%:p")
+    :echo expand("%:h")
+    :echo expand("%:t")
+    :echo expand("%:r")
+    :echo expand("%:e")
+endfunc
 "<F2>打开/关闭目录树边框(左)"
 map <F2> :NERDTreeToggle<CR>
 "<F3>打开新的标签页"
@@ -173,6 +183,13 @@ func! Buildheader()
         call append(line(".")+5,"*date     : ".strftime("%c"))
         call append(line(".")+6,"*")
         call append(line(".")+7,"************************************/")
+        call append(line(".")+8,"")
+        if expand("%:r") == "main"
+            call append(line(".")+9,"int main(int argc,char** argv) {")
+            call append(line(".")+10,"")
+            call append(line(".")+11,"\treturn 0;")
+            call append(line(".")+12,"}")
+        endif
     elseif &filetype == 'c' || expand("%:e") == 'cc'
         call setline(1,"/************************************")
         call append(line("."),"*")
@@ -184,10 +201,12 @@ func! Buildheader()
         call append(line(".")+6,"*")
         call append(line(".")+7,"************************************/")
         call append(line(".")+8,"")
-        call append(line(".")+9,"int main(int argc,char** argv) {")
-        call append(line(".")+10,"")
-        call append(line(".")+11,"\treturn 0;")
-        call append(line(".")+12,"}")
+        if expand("%:r") == "main"
+            call append(line(".")+9,"int main(int argc,char** argv) {")
+            call append(line(".")+10,"")
+            call append(line(".")+11,"\treturn 0;")
+            call append(line(".")+12,"}")
+        endif
     elseif expand("%:e") == 'h'
         call setline(1,"/************************************")
         call append(line("."),"*")
@@ -202,12 +221,22 @@ func! Buildheader()
         call append(line(".")+9,"#define _SLP_".toupper(expand("%:r"))."_H")
         call append(line(".")+10,"")
         call append(line(".")+11,"#endif /*_SLP_".toupper(expand("%:r"))."_H*/")
+    elseif expand("%") == 'makefile'
+        call setline(1,"#")
+        call append(line("."),"#")
+        call append(line(".")+1,"#此头文件用于构建目标程序")
+        call append(line(".")+2,"#filename : ".expand("%"))
+        call append(line(".")+3,"#author   : sleeping")
+        call append(line(".")+4,"#email    : csleeping@163.com")
+        call append(line(".")+5,"#date     : ".strftime("%c"))
+        call append(line(".")+6,"#")
+        call append(line(".")+7,"#")
+        call append(line(".")+8,"")
+
     endif
 endfunc
-"匹配高亮"
-map <F9> :set hlsearch<CR> 
-"取消匹配高亮"
-map <F12> :set nohlsearch<CR> 
+"取消/匹配高亮"
+map <F9> :set hlsearch!<CR> 
 "右侧显示"
 let Tlist_Show_One_File = 1            "不同时显示多个文件的tag，只显示当前文件的
 let Tlist_Exit_OnlyWindow = 1          "如果taglist窗口是最后一个窗口，则退出vim
