@@ -121,46 +121,60 @@ func! Buildmkfile()
     call append(line(".")+5,"objs:=$(cpps:%.cpp=%.o)")
     call append(line(".")+6,"CFLGAS:= -c -o ")
     call append(line(".")+7,"LDFLAGS:= -o")
-    call append(line(".")+8,"")
+    call append(line(".")+8,"ERR:=") 
+    call append(line(".")+9,"")
 
-    call append(line(".")+9,"ifeq ($(dbg),1)")
-	call append(line(".")+10,"\tsuffix:=_debug")
-	call append(line(".")+11,"\ttarget:=$(target)$(suffix)")
-	call append(line(".")+12,"\tCFLGAS:= -c -g -o  ")
-	call append(line(".")+13,"\tLDFLAGS:= -g -o ")
-    call append(line(".")+14,"else")
-	call append(line(".")+15,"\tsuffix:=")
+
+    call append(line(".")+10,"ifeq ($(cpps),)")
+    call append(line(".")+11,"\tERR:=$(error $(shell echo -e \"\\033[31mno cpp files are found!\\033[m\"))")
+    call append(line(".")+12,"endif")
+
+    call append(line(".")+13,"")
+    call append(line(".")+14,"ifeq ($(dbg),1)")
+	call append(line(".")+15,"\tsuffix:=_debug")
 	call append(line(".")+16,"\ttarget:=$(target)$(suffix)")
-	call append(line(".")+17,"\tCFLGAS:= -c -o ")
-	call append(line(".")+18,"\tLDFLAGS:= -o ")
-    call append(line(".")+19,"endif")
+	call append(line(".")+17,"\tCFLGAS:= -c -g -o  ")
+	call append(line(".")+18,"\tLDFLAGS:= -g -o ")
+    call append(line(".")+19,"else")
+	call append(line(".")+20,"\tsuffix:=")
+	call append(line(".")+21,"\ttarget:=$(target)$(suffix)")
+	call append(line(".")+22,"\tCFLGAS:= -c -o ")
+	call append(line(".")+23,"\tLDFLAGS:= -o ")
+    call append(line(".")+24,"endif")
+    call append(line(".")+25,"")
 
-    call append(line(".")+20,".PHONY: show")
+    call append(line(".")+26,".PHONY: show")
+    call append(line(".")+27,"")
 
-    call append(line(".")+21,"$(out)/$(target):$(objs)")
-	call append(line(".")+22,"\t$(CXX) $(LDFLAGS) $@ $^ -lslp_utils ")
+    call append(line(".")+28,"$(out)/$(target):$(objs)")
+	call append(line(".")+29,"\t$(CXX) $(LDFLAGS) $@ $^ -lslp_utils ")
+    call append(line(".")+30,"")
 
-    call append(line(".")+23,"$(objs):%.o:%.cpp")
-	call append(line(".")+24,"\t$(CXX) $(CFLGAS)$@ $< -std=c++11")
+    call append(line(".")+31,"$(objs):%.o:%.cpp $(ERR)")
+	call append(line(".")+32,"\t$(CXX) $(CFLGAS)$@ $< -std=c++11")
+    call append(line(".")+33,"")
 
-    call append(line(".")+25,"test:$(target)")
-	call append(line(".")+26,"\t@echo -e \"\\033[32m执行$(out)/$^\\033[m\"")
-	call append(line(".")+27,"\t@$(out)/$^")
+    call append(line(".")+34,"test:$(target)")
+	call append(line(".")+35,"\t@echo -e \"\\033[32m执行$(out)/$^\\033[m\"")
+	call append(line(".")+36,"\t@$(out)/$^")
+    call append(line(".")+37,"")
 
-    call append(line(".")+28,"show:")
-	call append(line(".")+29,"\t@echo -e \"\\033[32mout=$(out)\"")
-	call append(line(".")+30,"\t@echo target=$(target)")
-	call append(line(".")+31,"\t@echo suffix=$(suffix)")
-	call append(line(".")+32,"\t@echo cpps=$(cpps)")
-	call append(line(".")+33,"\t@echo objs=$(objs)")
-	call append(line(".")+34,"\t@echo CFLGAS=$(CFLGAS)")
-	call append(line(".")+35,"\t@echo -e \"LDFLAGS=$(LDFLAGS)\\033[m\"")
+    call append(line(".")+38,"show:")
+	call append(line(".")+39,"\t@echo -e \"\\033[32mout=$(out)\"")
+	call append(line(".")+40,"\t@echo target=$(target)")
+	call append(line(".")+41,"\t@echo suffix=$(suffix)")
+	call append(line(".")+42,"\t@echo cpps=$(cpps)")
+	call append(line(".")+43,"\t@echo objs=$(objs)")
+	call append(line(".")+44,"\t@echo CFLGAS=$(CFLGAS)")
+	call append(line(".")+45,"\t@echo -e \"LDFLAGS=$(LDFLAGS)\\033[m\"")
+    call append(line(".")+46,"")
 
-    call append(line(".")+36,"clean:")
-	call append(line(".")+37,"\t@echo -e \"\\033[31m清除$(target)\\033[m\"")
-	call append(line(".")+38,"\t@$(RM)  $(target)")
-	call append(line(".")+39,"\t@echo -e \"\\033[31m清除$(objs)\\033[m\"")
-	call append(line(".")+39,"\t@$(RM)  $(objs)")
+    call append(line(".")+47,"clean:")
+	call append(line(".")+48,"\t@echo -e \"\\033[31m清除$(target)\\033[m\"")
+	call append(line(".")+49,"\t@$(RM)  $(target)")
+	call append(line(".")+50,"\t@echo -e \"\\033[31m清除$(objs)\\033[m\"")
+	call append(line(".")+51,"\t@$(RM)  $(objs)")
+    call append(line(".")+52,"")
 endfunc
 "
 "<F7>新建makefile模板"
@@ -246,7 +260,7 @@ let Tlist_Exit_OnlyWindow = 1          "如果taglist窗口是最后一个窗口
 let Tlist_Use_Right_Window = 1         "在右侧窗口中显示taglist窗口
 
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/vundle
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
