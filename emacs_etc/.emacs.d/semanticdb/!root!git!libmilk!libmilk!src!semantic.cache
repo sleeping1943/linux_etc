@@ -1,0 +1,562 @@
+;; Object src/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "src/"
+  :tables (list 
+   (semanticdb-table "bigint.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("bigint.h" include nil nil [1 20])
+            ("sstream" include (:system-flag t) nil [21 39])
+            ("assert.h" include (:system-flag t) nil [40 59])
+            ("memory.h" include (:system-flag t) nil [60 79])
+            ("iomanip" include (:system-flag t) nil [80 98])
+            ("lyramilk::data" using (:type ("lyramilk::data" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [100 131])
+            ("bitset" function
+               (:constructor-flag t
+                :parent "bigint::bitset"
+                :arguments 
+                  ( ("t" variable
+                       (:reference 1
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [156 166])
+                    ("o" variable
+                       (:reference 1
+                        :type "unsigned int")
+                        (reparse-symbol arg-sub-list) [166 182])
+                    ("pos" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [182 199]))                  
+                :type ("bitset" type (:type "class") nil nil))
+                nil [133 239])
+            ("=" function
+               (:operator-flag t
+                :parent "bigint::bitset"
+                :arguments 
+                  ( ("v" variable (:type "bool") (reparse-symbol arg-sub-list) [283 290]))                  
+                :type ("bigint::bitset" type (:type "class") nil nil))
+                nil [241 370])
+            ("=" function
+               (:operator-flag t
+                :parent "bigint::bitset"
+                :arguments 
+                  ( ("b" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint::bitset" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [414 438]))                  
+                :type ("bigint::bitset" type (:type "class") nil nil))
+                nil [372 469])
+            ("~" function
+               (:operator-flag t
+                :parent "bigint::bitset"
+                :type "bool")
+                nil [471 553])
+            ("minus" function
+               (:parent "bigint"
+                :type "bool")
+                nil [619 710])
+            ("bits" function
+               (:parent "bigint"
+                :arguments 
+                  ( ("bitcount" variable (:type ("bindex_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [730 751]))                  
+                :type "void")
+                nil [712 1075])
+            ("bits" function
+               (:parent "bigint"
+                :type ("std::size_t" type (:type "class") nil nil))
+                nil [1077 1136])
+            ("trim" function
+               (:parent "bigint"
+                :type "void")
+                nil [1138 1307])
+            ("cmp" function
+               (:parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bytes_type" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1325 1345]))                  
+                :type "int")
+                nil [1309 2125])
+            ("cmp" function
+               (:parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2144 2160]))                  
+                :type "int")
+                nil [2128 2282])
+            ("opposite" function
+               (:parent "bigint"
+                :type ("bigint" type (:type "class") nil nil))
+                nil [2284 2390])
+            ("bigint" function
+               (:constructor-flag t
+                :parent "bigint"
+                :type ("bigint" type (:type "class") nil nil))
+                nil [2392 2412])
+            ("bigint" function
+               (:constructor-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "int") (reparse-symbol arg-sub-list) [2429 2435]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [2414 2455])
+            ("bigint" function
+               (:constructor-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "long") (reparse-symbol arg-sub-list) [2472 2479]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [2457 2499])
+            ("bigint" function
+               (:constructor-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "long long") (reparse-symbol arg-sub-list) [2516 2528]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [2501 2548])
+            ("bigint" function
+               (:constructor-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [2565 2580]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [2550 2600])
+            ("bigint" function
+               (:constructor-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "unsigned long") (reparse-symbol arg-sub-list) [2617 2633]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [2602 2653])
+            ("bigint" function
+               (:constructor-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "unsigned long long") (reparse-symbol arg-sub-list) [2670 2691]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [2655 2711])
+            ("bigint" function
+               (:constructor-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2728 2744]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [2713 2764])
+            ("=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "int") (reparse-symbol arg-sub-list) [2793 2799]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [2766 2856])
+            ("=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "long") (reparse-symbol arg-sub-list) [2885 2892]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [2858 2926])
+            ("=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "long long") (reparse-symbol arg-sub-list) [2955 2967]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [2928 3128])
+            ("=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [3157 3172]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [3130 3246])
+            ("=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "unsigned long") (reparse-symbol arg-sub-list) [3275 3291]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [3248 3334])
+            ("=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "unsigned long long") (reparse-symbol arg-sub-list) [3363 3384]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [3336 3562])
+            ("=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3591 3607]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [3564 3636])
+            ("[]" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type ("bindex_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3672 3686]))                  
+                :type ("bigint::bitset" type (:type "class") nil nil))
+                nil [3638 3793])
+            ("<" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3820 3836]))                  
+                :type "bool")
+                nil [3795 3866])
+            (">" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3893 3909]))                  
+                :type "bool")
+                nil [3868 3939])
+            ("<=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3967 3983]))                  
+                :type "bool")
+                nil [3941 4014])
+            (">=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4042 4058]))                  
+                :type "bool")
+                nil [4016 4090])
+            ("==" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4118 4134]))                  
+                :type "bool")
+                nil [4092 4165])
+            ("!=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4193 4209]))                  
+                :type "bool")
+                nil [4167 4240])
+            ("+=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4271 4287]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [4242 4997])
+            ("+" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5026 5042]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [4999 5080])
+            ("-=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5111 5127]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [5082 5162])
+            ("-" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5191 5207]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [5164 5245])
+            ("=" variable
+               (:functionpointer-flag t
+                :type ("bigint" type (:type "class") nil nil))
+                nil [5247 5658])
+            ("" variable
+               (:functionpointer-flag t
+                :type ("bigint" type (:type "class") nil nil))
+                nil [5660 5741])
+            ("/=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5772 5788]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [5743 6102])
+            ("/" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6131 6147]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [6104 6185])
+            ("%=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6216 6232]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [6187 6611])
+            ("%" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6640 6656]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [6613 6694])
+            ("++" function
+               (:operator-flag t
+                :parent "bigint"
+                :type ("bigint" type (:type "class") nil nil))
+                nil [6696 6749])
+            ("++" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [6778 6782]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [6751 6826])
+            ("--" function
+               (:operator-flag t
+                :parent "bigint"
+                :type ("bigint" type (:type "class") nil nil))
+                nil [6829 6882])
+            ("--" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [6911 6915]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [6884 6959])
+            ("~" function
+               (:operator-flag t
+                :parent "bigint"
+                :type ("bigint" type (:type "class") nil nil))
+                nil [6961 7129])
+            ("!" function
+               (:operator-flag t
+                :parent "bigint"
+                :type "bool")
+                nil [7131 7186])
+            ("^=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7217 7233]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [7188 7503])
+            ("^" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7532 7548]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [7505 7586])
+            ("&=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7617 7633]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [7588 7903])
+            ("&" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7932 7948]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [7905 7986])
+            ("<<=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "int") (reparse-symbol arg-sub-list) [8018 8024]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [7988 8529])
+            ("<<" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "int") (reparse-symbol arg-sub-list) [8559 8565]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [8531 8604])
+            (">>=" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "int") (reparse-symbol arg-sub-list) [8636 8642]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [8606 9144])
+            (">>" function
+               (:operator-flag t
+                :parent "bigint"
+                :arguments 
+                  ( ("o" variable (:type "int") (reparse-symbol arg-sub-list) [9174 9180]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [9146 9219])
+            ("pow" function
+               (:parent "bigint"
+                :arguments 
+                  ( ("_x" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9241 9258])
+                    ("_n" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9258 9275]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [9222 9418])
+            ("powmod" function
+               (:parent "bigint"
+                :arguments 
+                  ( ("_x" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9442 9459])
+                    ("_n" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9459 9476])
+                    ("m" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9476 9492]))                  
+                :type ("bigint" type (:type "class") nil nil))
+                nil [9420 9645])
+            ("<<" function
+               (:operator-flag t
+                :parent "lyramilk::data"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :type ("std::ostream" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9719 9735])
+                    ("r" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9735 9751]))                  
+                :type ("std::ostream" type (:type "class") nil nil))
+                nil [9676 11026])
+            (">>" function
+               (:operator-flag t
+                :parent "lyramilk::data"
+                :arguments 
+                  ( ("o" variable
+                       (:reference 1
+                        :type ("std::istream" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11071 11087])
+                    ("r" variable
+                       (:reference 1
+                        :type ("bigint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11087 11097]))                  
+                :type ("std::istream" type (:type "class") nil nil))
+                nil [11028 11129]))          
+    :file "bigint.cpp"
+    :pointmax 11129
+    :fsize 11227
+    :lastmodtime '(22399 1176 736170 440000)
+    :unmatched-syntax '((semantic-list 593 . 617) (CONST 587 . 592) (semantic-list 584 . 586) (BOOL 580 . 584) (OPERATOR 571 . 579) (punctuation 570 . 571) (punctuation 569 . 570) (symbol 563 . 569) (punctuation 562 . 563) (punctuation 561 . 562) (symbol 555 . 561))
+    )
+   (semanticdb-table "bigint.h"
+    :file "bigint.h"
+    :fsize 9488
+    :lastmodtime '(22399 1176 736170 440000)
+    )
+   )
+  :file "!root!git!libmilk!libmilk!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

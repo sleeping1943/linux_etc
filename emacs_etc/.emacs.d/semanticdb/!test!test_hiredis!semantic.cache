@@ -1,0 +1,33 @@
+;; Object test_hiredis/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "test_hiredis/"
+  :tables (list 
+   (semanticdb-table "Makefile"
+    :major-mode 'makefile-gmake-mode
+    :tags nil
+    :file "Makefile"
+    :pointmax 1
+    :fsize 1204
+    :lastmodtime '(22441 35961 248603 378000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "hello.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [31 36]))                  
+                :type "int")
+                nil [22 104]))          
+    :file "hello.cpp"
+    :pointmax 107
+    :fsize 106
+    :lastmodtime '(22441 35933 387458 66000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!test!test_hiredis!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

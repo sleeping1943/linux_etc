@@ -1,0 +1,511 @@
+;; Object root/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "root/"
+  :tables (list 
+   (semanticdb-table "test2.cpp"
+    :major-mode 'c++-mode
+    :tags nil
+    :file "test2.cpp"
+    :pointmax 9120
+    :fsize 9119
+    :lastmodtime '(22436 12809 354889 879000)
+    :unmatched-syntax '((string 8161 . 9120) (punctuation 8160 . 8161) (punctuation 8159 . 8160) (punctuation 8158 . 8159) (punctuation 8157 . 8158) (punctuation 8156 . 8157) (punctuation 8155 . 8156) (punctuation 8154 . 8155) (symbol 8153 . 8154) (punctuation 8152 . 8153) (punctuation 8150 . 8151) (punctuation 8149 . 8150) (punctuation 8148 . 8149) (punctuation 8147 . 8148) (punctuation 8146 . 8147) (symbol 8145 . 8146) (punctuation 8144 . 8145) (punctuation 8143 . 8144) (punctuation 8142 . 8143) (punctuation 8141 . 8142) (punctuation 8140 . 8141) (punctuation 8139 . 8140) (punctuation 8138 . 8139) (punctuation 8137 . 8138) (punctuation 8136 . 8137) (punctuation 8135 . 8136) (punctuation 8134 . 8135) (punctuation 8133 . 8134) (punctuation 8132 . 8133) (punctuation 8131 . 8132) (punctuation 8130 . 8131) (charquote 8129 . 8130) (punctuation 8128 . 8129) (punctuation 8127 . 8128) (punctuation 8126 . 8127) (punctuation 8125 . 8126) (punctuation 8124 . 8125) (punctuation 8123 . 8124) (punctuation 8122 . 8123) (symbol 8121 . 8122) (punctuation 8120 . 8121) (punctuation 8119 . 8120) (punctuation 8118 . 8119) (punctuation 8117 . 8118) (punctuation 8116 . 8117) (punctuation 8115 . 8116) (punctuation 8114 . 8115) (punctuation 8113 . 8114) (punctuation 8112 . 8113) (punctuation 8111 . 8112) (punctuation 8110 . 8111) (punctuation 8109 . 8110) (punctuation 8108 . 8109) (punctuation 8107 . 8108) (punctuation 8106 . 8107) (symbol 8105 . 8106) (punctuation 8104 . 8105) (punctuation 8103 . 8104) (punctuation 8102 . 8103) (punctuation 8101 . 8102) (punctuation 8100 . 8101) (punctuation 8099 . 8100) (punctuation 8098 . 8099) (symbol 8097 . 8098) (punctuation 8096 . 8097) (punctuation 8095 . 8096) (punctuation 8094 . 8095) (punctuation 8093 . 8094) (punctuation 8092 . 8093) (punctuation 8091 . 8092) (punctuation 8090 . 8091) (punctuation 8089 . 8090) (punctuation 8088 . 8089) (punctuation 8087 . 8088) (punctuation 8086 . 8087) (punctuation 8085 . 8086) (punctuation 8084 . 8085) (punctuation 8083 . 8084) (punctuation 8082 . 8083) (punctuation 8081 . 8082) (punctuation 8080 . 8081) (punctuation 8079 . 8080) (punctuation 8078 . 8079) (punctuation 8077 . 8078) (punctuation 8076 . 8077) (punctuation 8075 . 8076) (punctuation 8074 . 8075) (string 3601 . 8074) (punctuation 3600 . 3601) (punctuation 3599 . 3600) (punctuation 3598 . 3599) (punctuation 3597 . 3598) (punctuation 3596 . 3597) (punctuation 3595 . 3596) (punctuation 3594 . 3595) (punctuation 3593 . 3594) (punctuation 3592 . 3593) (punctuation 3591 . 3592) (punctuation 3590 . 3591) (punctuation 3589 . 3590) (punctuation 3588 . 3589) (punctuation 3587 . 3588) (punctuation 3586 . 3587) (punctuation 3585 . 3586) (punctuation 3584 . 3585) (punctuation 3583 . 3584) (punctuation 3582 . 3583) (punctuation 3581 . 3582) (punctuation 3580 . 3581) (punctuation 3579 . 3580) (punctuation 3578 . 3579) (punctuation 3577 . 3578) (punctuation 3576 . 3577) (punctuation 3575 . 3576) (punctuation 3574 . 3575) (punctuation 3573 . 3574) (punctuation 3572 . 3573) (punctuation 3571 . 3572) (punctuation 3570 . 3571) (punctuation 3569 . 3570) (punctuation 3568 . 3569) (punctuation 3567 . 3568) (punctuation 3566 . 3567) (punctuation 3565 . 3566) (punctuation 3564 . 3565) (punctuation 3563 . 3564) (punctuation 3562 . 3563) (punctuation 3560 . 3561) (punctuation 3559 . 3560) (punctuation 3558 . 3559) (punctuation 3557 . 3558) (punctuation 3556 . 3557) (punctuation 3555 . 3556) (punctuation 3554 . 3555) (symbol 3553 . 3554) (punctuation 3552 . 3553) (punctuation 3551 . 3552) (punctuation 3550 . 3551) (punctuation 3549 . 3550) (punctuation 3548 . 3549) (punctuation 3547 . 3548) (punctuation 3546 . 3547) (punctuation 3545 . 3546) (punctuation 3544 . 3545) (punctuation 3543 . 3544) (punctuation 3542 . 3543) (punctuation 3541 . 3542) (punctuation 3540 . 3541) (punctuation 3539 . 3540) (punctuation 3538 . 3539) (punctuation 3537 . 3538) (punctuation 3536 . 3537) (punctuation 3535 . 3536) (punctuation 3534 . 3535) (punctuation 3533 . 3534) (punctuation 3532 . 3533) (punctuation 3531 . 3532) (punctuation 3530 . 3531) (punctuation 3529 . 3530) (punctuation 3528 . 3529) (punctuation 3527 . 3528) (punctuation 3526 . 3527) (punctuation 3525 . 3526) (punctuation 3524 . 3525) (punctuation 3523 . 3524) (punctuation 3522 . 3523) (punctuation 3521 . 3522) (punctuation 3520 . 3521) (punctuation 3519 . 3520) (punctuation 3518 . 3519) (punctuation 3517 . 3518) (punctuation 3516 . 3517) (punctuation 3515 . 3516) (punctuation 3514 . 3515) (punctuation 3513 . 3514) (punctuation 3512 . 3513) (punctuation 3511 . 3512) (punctuation 3510 . 3511) (punctuation 3509 . 3510) (punctuation 3508 . 3509) (punctuation 3507 . 3508) (punctuation 3506 . 3507) (punctuation 3505 . 3506) (punctuation 3504 . 3505) (punctuation 3503 . 3504) (punctuation 3502 . 3503) (punctuation 3501 . 3502) (punctuation 3500 . 3501) (punctuation 3499 . 3500) (punctuation 3498 . 3499) (punctuation 3497 . 3498) (punctuation 3496 . 3497) (punctuation 3495 . 3496) (punctuation 3494 . 3495) (punctuation 3493 . 3494) (punctuation 3492 . 3493) (punctuation 3491 . 3492) (punctuation 3490 . 3491) (punctuation 3489 . 3490) (punctuation 3488 . 3489) (punctuation 3487 . 3488) (punctuation 3486 . 3487) (punctuation 3485 . 3486) (punctuation 3484 . 3485) (punctuation 3483 . 3484) (punctuation 3482 . 3483) (punctuation 3481 . 3482) (punctuation 3480 . 3481) (punctuation 3479 . 3480) (punctuation 3478 . 3479) (punctuation 3477 . 3478) (punctuation 3476 . 3477) (punctuation 3475 . 3476) (punctuation 3474 . 3475) (punctuation 3473 . 3474) (punctuation 3472 . 3473) (punctuation 3471 . 3472) (punctuation 3470 . 3471) (punctuation 3469 . 3470) (punctuation 3468 . 3469) (punctuation 3467 . 3468) (punctuation 3466 . 3467) (punctuation 3465 . 3466) (punctuation 3464 . 3465) (punctuation 3463 . 3464) (punctuation 3462 . 3463) (punctuation 3461 . 3462) (punctuation 3460 . 3461) (punctuation 3459 . 3460) (punctuation 3458 . 3459) (punctuation 3457 . 3458) (punctuation 3456 . 3457) (punctuation 3455 . 3456) (punctuation 3454 . 3455) (punctuation 3453 . 3454) (punctuation 3452 . 3453) (punctuation 3451 . 3452) (punctuation 3450 . 3451) (punctuation 3449 . 3450) (punctuation 3448 . 3449) (punctuation 3447 . 3448) (punctuation 3446 . 3447) (punctuation 3445 . 3446) (punctuation 3444 . 3445) (punctuation 3443 . 3444) (punctuation 3442 . 3443) (punctuation 3441 . 3442) (punctuation 3440 . 3441) (punctuation 3439 . 3440) (punctuation 3438 . 3439) (punctuation 3437 . 3438) (punctuation 3436 . 3437) (punctuation 3435 . 3436) (punctuation 3434 . 3435) (punctuation 3433 . 3434) (punctuation 3432 . 3433) (punctuation 3431 . 3432) (punctuation 3430 . 3431) (punctuation 3429 . 3430) (punctuation 3428 . 3429) (punctuation 3427 . 3428) (punctuation 3426 . 3427) (punctuation 3425 . 3426) (punctuation 3424 . 3425) (punctuation 3423 . 3424) (punctuation 3422 . 3423) (punctuation 3421 . 3422) (punctuation 3420 . 3421) (punctuation 3419 . 3420) (punctuation 3418 . 3419) (punctuation 3417 . 3418) (punctuation 3416 . 3417) (punctuation 3415 . 3416) (punctuation 3414 . 3415) (punctuation 3413 . 3414) (punctuation 3412 . 3413) (punctuation 3411 . 3412) (punctuation 3410 . 3411) (punctuation 3409 . 3410) (punctuation 3408 . 3409) (punctuation 3407 . 3408) (punctuation 3406 . 3407) (punctuation 3405 . 3406) (punctuation 3404 . 3405) (punctuation 3403 . 3404) (punctuation 3402 . 3403) (punctuation 3401 . 3402) (punctuation 3400 . 3401) (punctuation 3399 . 3400) (punctuation 3398 . 3399) (punctuation 3397 . 3398) (punctuation 3396 . 3397) (punctuation 3395 . 3396) (punctuation 3394 . 3395) (punctuation 3393 . 3394) (punctuation 3392 . 3393) (punctuation 3391 . 3392) (punctuation 3390 . 3391) (punctuation 3389 . 3390) (punctuation 3388 . 3389) (punctuation 3387 . 3388) (punctuation 3386 . 3387) (punctuation 3385 . 3386) (punctuation 3384 . 3385) (punctuation 3383 . 3384) (punctuation 3382 . 3383) (punctuation 3381 . 3382) (punctuation 3380 . 3381) (punctuation 3379 . 3380) (punctuation 3378 . 3379) (punctuation 3377 . 3378) (punctuation 3376 . 3377) (punctuation 3375 . 3376) (punctuation 3374 . 3375) (punctuation 3373 . 3374) (punctuation 3372 . 3373) (punctuation 3371 . 3372) (punctuation 3370 . 3371) (punctuation 3369 . 3370) (punctuation 3368 . 3369) (punctuation 3367 . 3368) (punctuation 3366 . 3367) (punctuation 3365 . 3366) (punctuation 3364 . 3365) (punctuation 3363 . 3364) (punctuation 3362 . 3363) (punctuation 3361 . 3362) (punctuation 3360 . 3361) (punctuation 3359 . 3360) (punctuation 3358 . 3359) (punctuation 3357 . 3358) (punctuation 3356 . 3357) (punctuation 3355 . 3356) (punctuation 3354 . 3355) (punctuation 3353 . 3354) (punctuation 3352 . 3353) (punctuation 3351 . 3352) (punctuation 3350 . 3351) (punctuation 3349 . 3350) (punctuation 3348 . 3349) (punctuation 3347 . 3348) (punctuation 3346 . 3347) (punctuation 3345 . 3346) (punctuation 3344 . 3345) (punctuation 3343 . 3344) (punctuation 3342 . 3343) (punctuation 3341 . 3342) (punctuation 3340 . 3341) (punctuation 3339 . 3340) (punctuation 3338 . 3339) (punctuation 3337 . 3338) (punctuation 3336 . 3337) (punctuation 3335 . 3336) (punctuation 3334 . 3335) (punctuation 3333 . 3334) (punctuation 3332 . 3333) (punctuation 3331 . 3332) (punctuation 3330 . 3331) (punctuation 3329 . 3330) (punctuation 3328 . 3329) (punctuation 3327 . 3328) (punctuation 3326 . 3327) (punctuation 3325 . 3326) (punctuation 3324 . 3325) (punctuation 3323 . 3324) (punctuation 3322 . 3323) (punctuation 3321 . 3322) (punctuation 3320 . 3321) (punctuation 3319 . 3320) (punctuation 3318 . 3319) (punctuation 3317 . 3318) (punctuation 3316 . 3317) (punctuation 3315 . 3316) (punctuation 3314 . 3315) (punctuation 3313 . 3314) (punctuation 3312 . 3313) (punctuation 3311 . 3312) (punctuation 3310 . 3311) (punctuation 3309 . 3310) (punctuation 3308 . 3309) (punctuation 3307 . 3308) (punctuation 3306 . 3307) (punctuation 3305 . 3306) (punctuation 3304 . 3305) (punctuation 3303 . 3304) (punctuation 3302 . 3303) (punctuation 3301 . 3302) (punctuation 3300 . 3301) (punctuation 3299 . 3300) (punctuation 3298 . 3299) (punctuation 3297 . 3298) (punctuation 3296 . 3297) (punctuation 3295 . 3296) (punctuation 3294 . 3295) (punctuation 3293 . 3294) (punctuation 3292 . 3293) (punctuation 3291 . 3292) (punctuation 3290 . 3291) (punctuation 3289 . 3290) (punctuation 3288 . 3289) (punctuation 3287 . 3288) (punctuation 3286 . 3287) (punctuation 3285 . 3286) (punctuation 3284 . 3285) (punctuation 3283 . 3284) (punctuation 3282 . 3283) (punctuation 3281 . 3282) (punctuation 3280 . 3281) (punctuation 3279 . 3280) (punctuation 3278 . 3279) (punctuation 3277 . 3278) (punctuation 3276 . 3277) (punctuation 3275 . 3276) (punctuation 3274 . 3275) (punctuation 3273 . 3274) (punctuation 3272 . 3273) (punctuation 3271 . 3272) (punctuation 3270 . 3271) (punctuation 3269 . 3270) (punctuation 3268 . 3269) (punctuation 3267 . 3268) (punctuation 3266 . 3267) (punctuation 3265 . 3266) (punctuation 3264 . 3265) (punctuation 3263 . 3264) (punctuation 3262 . 3263) (punctuation 3261 . 3262) (punctuation 3260 . 3261) (punctuation 3259 . 3260) (punctuation 3258 . 3259) (punctuation 3257 . 3258) (punctuation 3256 . 3257) (punctuation 3255 . 3256) (punctuation 3254 . 3255) (punctuation 3253 . 3254) (punctuation 3252 . 3253) (punctuation 3251 . 3252) (punctuation 3250 . 3251) (punctuation 3249 . 3250) (punctuation 3248 . 3249) (punctuation 3247 . 3248) (punctuation 3246 . 3247) (punctuation 3245 . 3246) (punctuation 3244 . 3245) (punctuation 3243 . 3244) (punctuation 3242 . 3243) (punctuation 3241 . 3242) (punctuation 3240 . 3241) (punctuation 3239 . 3240) (punctuation 3238 . 3239) (punctuation 3237 . 3238) (punctuation 3236 . 3237) (punctuation 3235 . 3236) (punctuation 3234 . 3235) (punctuation 3233 . 3234) (punctuation 3232 . 3233) (punctuation 3231 . 3232) (punctuation 3230 . 3231) (punctuation 3229 . 3230) (punctuation 3228 . 3229) (punctuation 3227 . 3228) (punctuation 3226 . 3227) (punctuation 3225 . 3226) (punctuation 3224 . 3225) (punctuation 3223 . 3224) (punctuation 3222 . 3223) (punctuation 3221 . 3222) (punctuation 3220 . 3221) (punctuation 3219 . 3220) (punctuation 3218 . 3219) (punctuation 3217 . 3218) (punctuation 3216 . 3217) (punctuation 3215 . 3216) (punctuation 3214 . 3215) (punctuation 3213 . 3214) (punctuation 3212 . 3213) (punctuation 3211 . 3212) (punctuation 3210 . 3211) (punctuation 3209 . 3210) (punctuation 3208 . 3209) (punctuation 3207 . 3208) (punctuation 3206 . 3207) (punctuation 3205 . 3206) (punctuation 3204 . 3205) (punctuation 3203 . 3204) (punctuation 3202 . 3203) (punctuation 3201 . 3202) (punctuation 3200 . 3201) (punctuation 3199 . 3200) (punctuation 3198 . 3199) (punctuation 3197 . 3198) (punctuation 3196 . 3197) (punctuation 3195 . 3196) (punctuation 3194 . 3195) (punctuation 3193 . 3194) (punctuation 3192 . 3193) (punctuation 3191 . 3192) (punctuation 3190 . 3191) (punctuation 3189 . 3190) (punctuation 3188 . 3189) (punctuation 3187 . 3188) (punctuation 3186 . 3187) (punctuation 3185 . 3186) (punctuation 3184 . 3185) (punctuation 3183 . 3184) (punctuation 3182 . 3183) (punctuation 3181 . 3182) (punctuation 3180 . 3181) (punctuation 3179 . 3180) (punctuation 3178 . 3179) (punctuation 3177 . 3178) (punctuation 3176 . 3177) (punctuation 3175 . 3176) (punctuation 3174 . 3175) (punctuation 3173 . 3174) (punctuation 3172 . 3173) (punctuation 3171 . 3172) (punctuation 3170 . 3171) (punctuation 3169 . 3170) (punctuation 3168 . 3169) (punctuation 3167 . 3168) (punctuation 3166 . 3167) (punctuation 3165 . 3166) (punctuation 3164 . 3165) (punctuation 3163 . 3164) (punctuation 3162 . 3163) (punctuation 3161 . 3162) (punctuation 3160 . 3161) (punctuation 3159 . 3160) (punctuation 3158 . 3159) (punctuation 3157 . 3158) (punctuation 3156 . 3157) (punctuation 3155 . 3156) (punctuation 3154 . 3155) (punctuation 3153 . 3154) (punctuation 3152 . 3153) (punctuation 3151 . 3152) (punctuation 3150 . 3151) (punctuation 3149 . 3150) (punctuation 3148 . 3149) (punctuation 3147 . 3148) (punctuation 3146 . 3147) (punctuation 3145 . 3146) (punctuation 3144 . 3145) (punctuation 3143 . 3144) (punctuation 3142 . 3143) (punctuation 3141 . 3142) (punctuation 3140 . 3141) (punctuation 3139 . 3140) (punctuation 3138 . 3139) (punctuation 3137 . 3138) (punctuation 3136 . 3137) (punctuation 3135 . 3136) (punctuation 3134 . 3135) (punctuation 3133 . 3134) (punctuation 3132 . 3133) (punctuation 3131 . 3132) (punctuation 3130 . 3131) (punctuation 3129 . 3130) (punctuation 3128 . 3129) (punctuation 3127 . 3128) (punctuation 3126 . 3127) (punctuation 3125 . 3126) (punctuation 3124 . 3125) (punctuation 3123 . 3124) (punctuation 3122 . 3123) (punctuation 3121 . 3122) (punctuation 3120 . 3121) (punctuation 3119 . 3120) (punctuation 3118 . 3119) (punctuation 3117 . 3118) (punctuation 3116 . 3117) (punctuation 3115 . 3116) (punctuation 3114 . 3115) (punctuation 3113 . 3114) (punctuation 3112 . 3113) (punctuation 3111 . 3112) (punctuation 3110 . 3111) (punctuation 3109 . 3110) (punctuation 3108 . 3109) (punctuation 3107 . 3108) (punctuation 3106 . 3107) (punctuation 3105 . 3106) (punctuation 3104 . 3105) (punctuation 3103 . 3104) (punctuation 3102 . 3103) (punctuation 3101 . 3102) (punctuation 3100 . 3101) (punctuation 3099 . 3100) (punctuation 3098 . 3099) (punctuation 3097 . 3098) (punctuation 3096 . 3097) (punctuation 3095 . 3096) (punctuation 3094 . 3095) (punctuation 3093 . 3094) (punctuation 3092 . 3093) (punctuation 3091 . 3092) (punctuation 3090 . 3091) (punctuation 3089 . 3090) (punctuation 3088 . 3089) (punctuation 3087 . 3088) (punctuation 3086 . 3087) (punctuation 3085 . 3086) (punctuation 3084 . 3085) (punctuation 3083 . 3084) (punctuation 3082 . 3083) (punctuation 3081 . 3082) (punctuation 3080 . 3081) (punctuation 3079 . 3080) (punctuation 3078 . 3079) (punctuation 3077 . 3078) (punctuation 3076 . 3077) (punctuation 3075 . 3076) (punctuation 3074 . 3075) (punctuation 3073 . 3074) (punctuation 3072 . 3073) (punctuation 3071 . 3072) (punctuation 3070 . 3071) (punctuation 3069 . 3070) (punctuation 3068 . 3069) (punctuation 3067 . 3068) (punctuation 3066 . 3067) (punctuation 3065 . 3066) (punctuation 3064 . 3065) (punctuation 3063 . 3064) (punctuation 3062 . 3063) (punctuation 3061 . 3062) (punctuation 3060 . 3061) (punctuation 3059 . 3060) (punctuation 3058 . 3059) (punctuation 3057 . 3058) (punctuation 3056 . 3057) (punctuation 3055 . 3056) (punctuation 3054 . 3055) (punctuation 3053 . 3054) (punctuation 3052 . 3053) (punctuation 3051 . 3052) (punctuation 3050 . 3051) (punctuation 3049 . 3050) (punctuation 3048 . 3049) (punctuation 3047 . 3048) (punctuation 3046 . 3047) (punctuation 3045 . 3046) (punctuation 3044 . 3045) (punctuation 3043 . 3044) (punctuation 3042 . 3043) (punctuation 3041 . 3042) (punctuation 3040 . 3041) (punctuation 3039 . 3040) (punctuation 3038 . 3039) (punctuation 3037 . 3038) (punctuation 3036 . 3037) (punctuation 3035 . 3036) (punctuation 3034 . 3035) (punctuation 3033 . 3034) (punctuation 3032 . 3033) (punctuation 3031 . 3032) (punctuation 3030 . 3031) (punctuation 3029 . 3030) (punctuation 3028 . 3029) (punctuation 3027 . 3028) (punctuation 3026 . 3027) (punctuation 3025 . 3026) (punctuation 3024 . 3025) (punctuation 3023 . 3024) (punctuation 3022 . 3023) (punctuation 3021 . 3022) (punctuation 3020 . 3021) (punctuation 3019 . 3020) (punctuation 3018 . 3019) (punctuation 3017 . 3018) (punctuation 3016 . 3017) (punctuation 3015 . 3016) (punctuation 3014 . 3015) (punctuation 3013 . 3014) (punctuation 3012 . 3013) (punctuation 3011 . 3012) (punctuation 3010 . 3011) (punctuation 3009 . 3010) (punctuation 3008 . 3009) (punctuation 3007 . 3008) (punctuation 3006 . 3007) (punctuation 3005 . 3006) (punctuation 3004 . 3005) (punctuation 3003 . 3004) (punctuation 3002 . 3003) (punctuation 3001 . 3002) (punctuation 3000 . 3001) (punctuation 2999 . 3000) (punctuation 2998 . 2999) (punctuation 2997 . 2998) (punctuation 2996 . 2997) (punctuation 2995 . 2996) (punctuation 2994 . 2995) (punctuation 2993 . 2994) (punctuation 2992 . 2993) (punctuation 2991 . 2992) (punctuation 2990 . 2991) (punctuation 2989 . 2990) (punctuation 2988 . 2989) (punctuation 2987 . 2988) (punctuation 2986 . 2987) (punctuation 2985 . 2986) (punctuation 2984 . 2985) (punctuation 2983 . 2984) (punctuation 2982 . 2983) (punctuation 2981 . 2982) (punctuation 2980 . 2981) (punctuation 2979 . 2980) (punctuation 2978 . 2979) (punctuation 2977 . 2978) (punctuation 2976 . 2977) (punctuation 2975 . 2976) (punctuation 2974 . 2975) (punctuation 2973 . 2974) (punctuation 2972 . 2973) (punctuation 2971 . 2972) (punctuation 2970 . 2971) (punctuation 2969 . 2970) (punctuation 2968 . 2969) (punctuation 2967 . 2968) (punctuation 2966 . 2967) (punctuation 2965 . 2966) (punctuation 2964 . 2965) (punctuation 2963 . 2964) (punctuation 2962 . 2963) (punctuation 2961 . 2962) (punctuation 2960 . 2961) (punctuation 2959 . 2960) (punctuation 2958 . 2959) (punctuation 2957 . 2958) (punctuation 2956 . 2957) (punctuation 2955 . 2956) (punctuation 2954 . 2955) (punctuation 2953 . 2954) (punctuation 2952 . 2953) (punctuation 2951 . 2952) (punctuation 2950 . 2951) (punctuation 2949 . 2950) (punctuation 2948 . 2949) (punctuation 2947 . 2948) (punctuation 2946 . 2947) (punctuation 2945 . 2946) (punctuation 2944 . 2945) (punctuation 2943 . 2944) (punctuation 2942 . 2943) (punctuation 2941 . 2942) (punctuation 2940 . 2941) (punctuation 2939 . 2940) (punctuation 2938 . 2939) (punctuation 2937 . 2938) (punctuation 2936 . 2937) (punctuation 2935 . 2936) (punctuation 2934 . 2935) (punctuation 2933 . 2934) (punctuation 2932 . 2933) (punctuation 2931 . 2932) (punctuation 2930 . 2931) (punctuation 2929 . 2930) (punctuation 2928 . 2929) (punctuation 2927 . 2928) (punctuation 2926 . 2927) (punctuation 2925 . 2926) (punctuation 2924 . 2925) (punctuation 2923 . 2924) (punctuation 2922 . 2923) (punctuation 2921 . 2922) (punctuation 2920 . 2921) (punctuation 2919 . 2920) (punctuation 2918 . 2919) (punctuation 2917 . 2918) (punctuation 2916 . 2917) (punctuation 2915 . 2916) (punctuation 2914 . 2915) (punctuation 2913 . 2914) (punctuation 2912 . 2913) (punctuation 2911 . 2912) (punctuation 2910 . 2911) (punctuation 2909 . 2910) (punctuation 2908 . 2909) (punctuation 2907 . 2908) (punctuation 2906 . 2907) (punctuation 2905 . 2906) (punctuation 2904 . 2905) (punctuation 2903 . 2904) (punctuation 2902 . 2903) (punctuation 2901 . 2902) (punctuation 2900 . 2901) (punctuation 2899 . 2900) (punctuation 2898 . 2899) (punctuation 2897 . 2898) (punctuation 2896 . 2897) (punctuation 2895 . 2896) (punctuation 2894 . 2895) (punctuation 2893 . 2894) (punctuation 2892 . 2893) (punctuation 2891 . 2892) (punctuation 2890 . 2891) (punctuation 2889 . 2890) (punctuation 2888 . 2889) (punctuation 2887 . 2888) (punctuation 2886 . 2887) (punctuation 2885 . 2886) (punctuation 2884 . 2885) (punctuation 2883 . 2884) (punctuation 2882 . 2883) (punctuation 2881 . 2882) (punctuation 2880 . 2881) (punctuation 2879 . 2880) (punctuation 2878 . 2879) (punctuation 2877 . 2878) (punctuation 2876 . 2877) (punctuation 2875 . 2876) (punctuation 2874 . 2875) (punctuation 2873 . 2874) (punctuation 2872 . 2873) (punctuation 2871 . 2872) (punctuation 2870 . 2871) (punctuation 2869 . 2870) (punctuation 2868 . 2869) (punctuation 2867 . 2868) (punctuation 2866 . 2867) (punctuation 2865 . 2866) (punctuation 2864 . 2865) (punctuation 2863 . 2864) (punctuation 2862 . 2863) (punctuation 2861 . 2862) (punctuation 2860 . 2861) (punctuation 2859 . 2860) (punctuation 2858 . 2859) (punctuation 2857 . 2858) (punctuation 2856 . 2857) (punctuation 2855 . 2856) (punctuation 2854 . 2855) (punctuation 2853 . 2854) (punctuation 2852 . 2853) (punctuation 2851 . 2852) (punctuation 2850 . 2851) (punctuation 2849 . 2850) (punctuation 2848 . 2849) (punctuation 2847 . 2848) (punctuation 2846 . 2847) (punctuation 2845 . 2846) (punctuation 2844 . 2845) (punctuation 2843 . 2844) (punctuation 2842 . 2843) (punctuation 2841 . 2842) (punctuation 2840 . 2841) (punctuation 2839 . 2840) (punctuation 2838 . 2839) (punctuation 2837 . 2838) (punctuation 2836 . 2837) (punctuation 2835 . 2836) (punctuation 2834 . 2835) (punctuation 2833 . 2834) (punctuation 2832 . 2833) (punctuation 2831 . 2832) (punctuation 2830 . 2831) (punctuation 2829 . 2830) (punctuation 2828 . 2829) (punctuation 2827 . 2828) (punctuation 2826 . 2827) (punctuation 2825 . 2826) (punctuation 2824 . 2825) (punctuation 2823 . 2824) (punctuation 2822 . 2823) (punctuation 2821 . 2822) (symbol 2818 . 2821) (punctuation 2817 . 2818) (punctuation 2816 . 2817) (punctuation 2815 . 2816) (punctuation 2814 . 2815) (symbol 2813 . 2814) (punctuation 2812 . 2813) (punctuation 2811 . 2812) (punctuation 2810 . 2811) (punctuation 2809 . 2810) (punctuation 2808 . 2809) (punctuation 2807 . 2808) (punctuation 2806 . 2807) (symbol 2805 . 2806) (punctuation 2804 . 2805) (punctuation 2803 . 2804) (symbol 2802 . 2803) (punctuation 2801 . 2802) (punctuation 2800 . 2801) (symbol 2799 . 2800) (punctuation 2797 . 2798) (symbol 2796 . 2797) (open-paren 2795 . 2796) (punctuation 2794 . 2795) (symbol 2792 . 2794) (punctuation 2791 . 2792) (symbol 2789 . 2791) (punctuation 2788 . 2789) (symbol 2787 . 2788) (punctuation 2786 . 2787) (punctuation 2785 . 2786) (symbol 2784 . 2785) (punctuation 2783 . 2784) (symbol 2782 . 2783) (number 2781 . 2782) (punctuation 2780 . 2781) (symbol 2779 . 2780) (punctuation 2778 . 2779) (symbol 2777 . 2778) (number 2776 . 2777) (punctuation 2775 . 2776) (symbol 2774 . 2775) (punctuation 2773 . 2774) (symbol 2772 . 2773) (open-paren 2771 . 2772) (punctuation 2770 . 2771) (symbol 2769 . 2770) (punctuation 2768 . 2769) (symbol 2767 . 2768) (punctuation 2765 . 2766) (symbol 2764 . 2765) (punctuation 2763 . 2764) (symbol 2762 . 2763) (punctuation 2761 . 2762) (punctuation 2760 . 2761) (symbol 2759 . 2760) (punctuation 2758 . 2759) (symbol 2757 . 2758) (punctuation 2756 . 2757) (punctuation 2755 . 2756) (symbol 2754 . 2755) (punctuation 2753 . 2754) (punctuation 2752 . 2753) (punctuation 2751 . 2752) (punctuation 2750 . 2751) (symbol 2746 . 2750) (number 2745 . 2746) (punctuation 2744 . 2745) (punctuation 2743 . 2744) (punctuation 2742 . 2743) (symbol 2741 . 2742) (punctuation 2740 . 2741) (punctuation 2739 . 2740) (punctuation 2738 . 2739) (symbol 2737 . 2738) (punctuation 2736 . 2737) (punctuation 2735 . 2736) (punctuation 2734 . 2735) (punctuation 2733 . 2734) (punctuation 2732 . 2733) (symbol 2730 . 2731) (punctuation 2729 . 2730) (symbol 2727 . 2728) (punctuation 2726 . 2727) (symbol 2725 . 2726) (punctuation 2724 . 2725) (punctuation 2723 . 2724) (symbol 2722 . 2723) (punctuation 2721 . 2722) (punctuation 2720 . 2721) (punctuation 2719 . 2720) (punctuation 2718 . 2719) (punctuation 2717 . 2718) (symbol 2714 . 2717) (punctuation 2713 . 2714) (punctuation 2712 . 2713) (punctuation 2711 . 2712) (punctuation 2710 . 2711) (symbol 2709 . 2710) (punctuation 2708 . 2709) (punctuation 2707 . 2708) (punctuation 2706 . 2707) (punctuation 2705 . 2706) (punctuation 2704 . 2705) (punctuation 2703 . 2704) (punctuation 2702 . 2703) (punctuation 2701 . 2702) (punctuation 2700 . 2701) (symbol 2698 . 2699) (punctuation 2697 . 2698) (symbol 2695 . 2696) (punctuation 2694 . 2695) (symbol 2693 . 2694) (punctuation 2692 . 2693) (punctuation 2691 . 2692) (symbol 2690 . 2691) (punctuation 2689 . 2690) (punctuation 2688 . 2689) (punctuation 2687 . 2688) (punctuation 2686 . 2687) (punctuation 2685 . 2686) (symbol 2682 . 2685) (punctuation 2681 . 2682) (punctuation 2680 . 2681) (punctuation 2679 . 2680) (punctuation 2678 . 2679) (symbol 2677 . 2678) (punctuation 2676 . 2677) (punctuation 2675 . 2676) (punctuation 2674 . 2675) (punctuation 2673 . 2674) (punctuation 2672 . 2673) (punctuation 2671 . 2672) (punctuation 2670 . 2671) (punctuation 2669 . 2670) (punctuation 2668 . 2669) (symbol 2666 . 2667) (punctuation 2665 . 2666) (symbol 2663 . 2664) (punctuation 2662 . 2663) (symbol 2661 . 2662) (punctuation 2660 . 2661) (punctuation 2659 . 2660) (symbol 2658 . 2659) (punctuation 2657 . 2658) (punctuation 2656 . 2657) (punctuation 2655 . 2656) (punctuation 2654 . 2655) (string 2219 . 2654) (symbol 2218 . 2219) (punctuation 2217 . 2218) (symbol 2216 . 2217) (close-paren 2215 . 2216) (symbol 2210 . 2215) (close-paren 2209 . 2210) (symbol 2208 . 2209) (punctuation 2207 . 2208) (symbol 2199 . 2207) (close-paren 2198 . 2199) (punctuation 2197 . 2198) (punctuation 2196 . 2197) (punctuation 2195 . 2196) (punctuation 2194 . 2195) (symbol 2185 . 2194) (punctuation 2184 . 2185) (punctuation 2183 . 2184) (punctuation 2182 . 2183) (symbol 2175 . 2182) (punctuation 2174 . 2175) (punctuation 2173 . 2174) (punctuation 2172 . 2173) (punctuation 2171 . 2172) (symbol 2170 . 2171) (punctuation 2169 . 2170) (punctuation 2168 . 2169) (symbol 2161 . 2167) (punctuation 2160 . 2161) (punctuation 2159 . 2160) (punctuation 2158 . 2159) (symbol 2153 . 2158) (punctuation 2152 . 2153) (punctuation 2151 . 2152) (punctuation 2150 . 2151) (symbol 2147 . 2150) (open-paren 2146 . 2147) (symbol 2145 . 2146) (close-paren 2144 . 2145) (symbol 2139 . 2144) (punctuation 2138 . 2139) (punctuation 2137 . 2138) (symbol 2133 . 2136) (punctuation 2132 . 2133) (symbol 2128 . 2132) (punctuation 2127 . 2128) (punctuation 2126 . 2127) (punctuation 2125 . 2126) (punctuation 2124 . 2125) (symbol 2123 . 2124) (punctuation 2122 . 2123) (symbol 2121 . 2122) (punctuation 2120 . 2121) (punctuation 2119 . 2120) (punctuation 2117 . 2118) (symbol 2116 . 2117) (punctuation 2115 . 2116) (symbol 2113 . 2115) (punctuation 2112 . 2113) (punctuation 2111 . 2112) (punctuation 2110 . 2111) (punctuation 2109 . 2110) (symbol 2107 . 2109) (punctuation 2106 . 2107) (punctuation 2105 . 2106) (number 2102 . 2103) (punctuation 2101 . 2102) (symbol 2100 . 2101) (close-paren 2099 . 2100) (symbol 2096 . 2099) (punctuation 2095 . 2096) (symbol 2090 . 2095) (punctuation 2089 . 2090) (symbol 2088 . 2089) (punctuation 2087 . 2088) (punctuation 2086 . 2087) (symbol 2083 . 2084) (punctuation 2082 . 2083) (symbol 2081 . 2082) (punctuation 2080 . 2081) (punctuation 2079 . 2080) (punctuation 2078 . 2079) (punctuation 2077 . 2078) (symbol 2076 . 2077) (punctuation 2075 . 2076) (punctuation 2074 . 2075) (symbol 2072 . 2074) (punctuation 2071 . 2072) (punctuation 2070 . 2071) (punctuation 2069 . 2070) (punctuation 2068 . 2069) (symbol 2064 . 2068) (close-paren 2063 . 2064) (symbol 2058 . 2063) (punctuation 2057 . 2058) (punctuation 2056 . 2057) (punctuation 2055 . 2056) (punctuation 2054 . 2055) (symbol 2052 . 2054) (semantic-list 545 . 2052) (punctuation 544 . 545) (punctuation 543 . 544) (punctuation 542 . 543) (punctuation 541 . 542) (punctuation 540 . 541) (punctuation 539 . 540) (symbol 537 . 538) (punctuation 536 . 537) (punctuation 535 . 536) (punctuation 534 . 535) (punctuation 533 . 534) (punctuation 532 . 533) (punctuation 531 . 532) (symbol 529 . 530) (punctuation 528 . 529) (punctuation 527 . 528) (punctuation 526 . 527) (punctuation 525 . 526) (punctuation 524 . 525) (punctuation 523 . 524) (symbol 521 . 522) (punctuation 520 . 521) (punctuation 519 . 520) (punctuation 518 . 519) (punctuation 517 . 518) (symbol 513 . 517) (punctuation 512 . 513) (punctuation 511 . 512) (punctuation 510 . 511) (punctuation 509 . 510) (punctuation 508 . 509) (punctuation 507 . 508) (punctuation 506 . 507) (punctuation 505 . 506) (punctuation 504 . 505) (punctuation 503 . 504) (punctuation 502 . 503) (punctuation 501 . 502) (punctuation 500 . 501) (punctuation 499 . 500) (punctuation 498 . 499) (punctuation 497 . 498) (punctuation 496 . 497) (punctuation 495 . 496) (punctuation 494 . 495) (punctuation 493 . 494) (punctuation 492 . 493) (punctuation 491 . 492) (punctuation 490 . 491) (punctuation 489 . 490) (punctuation 488 . 489) (punctuation 487 . 488) (punctuation 486 . 487) (punctuation 485 . 486) (punctuation 484 . 485) (punctuation 483 . 484) (punctuation 482 . 483) (punctuation 481 . 482) (punctuation 480 . 481) (punctuation 479 . 480) (punctuation 478 . 479) (punctuation 477 . 478) (punctuation 476 . 477) (punctuation 475 . 476) (punctuation 474 . 475) (punctuation 473 . 474) (punctuation 472 . 473) (punctuation 471 . 472) (punctuation 470 . 471) (punctuation 469 . 470) (punctuation 468 . 469) (punctuation 467 . 468) (punctuation 466 . 467) (punctuation 465 . 466) (punctuation 464 . 465) (punctuation 463 . 464) (punctuation 462 . 463) (punctuation 461 . 462) (symbol 457 . 461) (punctuation 456 . 457) (punctuation 455 . 456) (punctuation 454 . 455) (punctuation 453 . 454) (punctuation 452 . 453) (punctuation 451 . 452) (punctuation 450 . 451) (punctuation 449 . 450) (punctuation 448 . 449) (punctuation 447 . 448) (punctuation 446 . 447) (punctuation 445 . 446) (punctuation 444 . 445) (punctuation 443 . 444) (punctuation 442 . 443) (symbol 441 . 442) (punctuation 440 . 441) (punctuation 439 . 440) (punctuation 438 . 439) (punctuation 437 . 438) (punctuation 436 . 437) (punctuation 435 . 436) (punctuation 434 . 435) (symbol 433 . 434) (punctuation 432 . 433) (punctuation 431 . 432) (punctuation 430 . 431) (punctuation 429 . 430) (punctuation 428 . 429) (punctuation 427 . 428) (symbol 425 . 426) (punctuation 424 . 425) (punctuation 423 . 424) (punctuation 422 . 423) (punctuation 421 . 422) (punctuation 420 . 421) (punctuation 419 . 420) (symbol 417 . 418) (punctuation 416 . 417) (punctuation 415 . 416) (punctuation 414 . 415) (punctuation 413 . 414) (punctuation 412 . 413) (punctuation 411 . 412) (symbol 409 . 410) (punctuation 408 . 409) (punctuation 407 . 408) (punctuation 406 . 407) (punctuation 405 . 406) (symbol 401 . 405) (punctuation 400 . 401) (punctuation 399 . 400) (punctuation 398 . 399) (punctuation 397 . 398) (punctuation 396 . 397) (punctuation 395 . 396) (punctuation 394 . 395) (punctuation 393 . 394) (punctuation 392 . 393) (punctuation 391 . 392) (punctuation 390 . 391) (punctuation 389 . 390) (punctuation 388 . 389) (punctuation 387 . 388) (punctuation 386 . 387) (symbol 385 . 386) (punctuation 384 . 385) (punctuation 383 . 384) (punctuation 382 . 383) (punctuation 381 . 382) (punctuation 380 . 381) (punctuation 379 . 380) (punctuation 378 . 379) (symbol 377 . 378) (punctuation 376 . 377) (punctuation 375 . 376) (punctuation 374 . 375) (punctuation 373 . 374) (punctuation 372 . 373) (punctuation 371 . 372) (punctuation 370 . 371) (symbol 369 . 370) (punctuation 368 . 369) (punctuation 367 . 368) (punctuation 366 . 367) (punctuation 365 . 366) (punctuation 364 . 365) (punctuation 363 . 364) (punctuation 362 . 363) (symbol 361 . 362) (punctuation 360 . 361) (punctuation 359 . 360) (punctuation 358 . 359) (punctuation 357 . 358) (punctuation 356 . 357) (punctuation 355 . 356) (punctuation 354 . 355) (symbol 353 . 354) (punctuation 352 . 353) (punctuation 351 . 352) (punctuation 350 . 351) (punctuation 349 . 350) (punctuation 348 . 349) (punctuation 347 . 348) (punctuation 346 . 347) (punctuation 345 . 346) (punctuation 344 . 345) (punctuation 343 . 344) (punctuation 342 . 343) (punctuation 341 . 342) (punctuation 340 . 341) (punctuation 339 . 340) (punctuation 338 . 339) (punctuation 337 . 338) (punctuation 336 . 337) (punctuation 335 . 336) (punctuation 334 . 335) (punctuation 333 . 334) (punctuation 332 . 333) (punctuation 331 . 332) (punctuation 330 . 331) (punctuation 329 . 330) (punctuation 328 . 329) (punctuation 327 . 328) (punctuation 326 . 327) (punctuation 325 . 326) (punctuation 324 . 325) (punctuation 323 . 324) (punctuation 322 . 323) (punctuation 321 . 322) (punctuation 320 . 321) (punctuation 319 . 320) (punctuation 318 . 319) (punctuation 317 . 318) (punctuation 316 . 317) (punctuation 315 . 316) (symbol 313 . 314) (punctuation 312 . 313) (punctuation 311 . 312) (punctuation 310 . 311) (punctuation 309 . 310) (punctuation 308 . 309) (punctuation 307 . 308) (symbol 305 . 306) (punctuation 304 . 305) (punctuation 303 . 304) (punctuation 302 . 303) (punctuation 301 . 302) (punctuation 300 . 301) (punctuation 299 . 300) (symbol 297 . 298) (punctuation 296 . 297) (punctuation 295 . 296) (punctuation 294 . 295) (punctuation 293 . 294) (punctuation 292 . 293) (punctuation 291 . 292) (punctuation 290 . 291) (punctuation 289 . 290) (punctuation 288 . 289) (punctuation 287 . 288) (punctuation 286 . 287) (punctuation 285 . 286) (punctuation 284 . 285) (punctuation 282 . 283) (punctuation 281 . 282) (punctuation 280 . 281) (punctuation 279 . 280) (punctuation 278 . 279) (punctuation 277 . 278) (punctuation 276 . 277) (punctuation 275 . 276) (punctuation 274 . 275) (symbol 273 . 274) (punctuation 272 . 273) (punctuation 271 . 272) (punctuation 270 . 271) (punctuation 269 . 270) (punctuation 268 . 269) (punctuation 267 . 268) (punctuation 266 . 267) (symbol 265 . 266) (punctuation 264 . 265) (punctuation 263 . 264) (punctuation 262 . 263) (punctuation 261 . 262) (punctuation 260 . 261) (punctuation 259 . 260) (symbol 257 . 258) (punctuation 256 . 257) (punctuation 255 . 256) (punctuation 254 . 255) (punctuation 253 . 254) (punctuation 252 . 253) (punctuation 251 . 252) (symbol 249 . 250) (punctuation 248 . 249) (punctuation 247 . 248) (punctuation 246 . 247) (punctuation 245 . 246) (punctuation 244 . 245) (punctuation 243 . 244) (symbol 241 . 242) (punctuation 240 . 241) (punctuation 239 . 240) (punctuation 238 . 239) (punctuation 237 . 238) (punctuation 236 . 237) (punctuation 235 . 236) (punctuation 234 . 235) (punctuation 233 . 234) (punctuation 232 . 233) (punctuation 231 . 232) (punctuation 230 . 231) (punctuation 229 . 230) (punctuation 228 . 229) (punctuation 226 . 227) (punctuation 225 . 226) (punctuation 224 . 225) (punctuation 223 . 224) (punctuation 222 . 223) (punctuation 221 . 222) (punctuation 220 . 221) (punctuation 219 . 220) (punctuation 218 . 219) (punctuation 217 . 218) (punctuation 216 . 217) (punctuation 215 . 216) (punctuation 214 . 215) (punctuation 213 . 214) (punctuation 212 . 213) (punctuation 211 . 212) (punctuation 210 . 211) (punctuation 209 . 210) (punctuation 208 . 209) (punctuation 207 . 208) (punctuation 206 . 207) (punctuation 205 . 206) (punctuation 204 . 205) (punctuation 203 . 204) (punctuation 202 . 203) (punctuation 201 . 202) (punctuation 200 . 201) (punctuation 199 . 200) (punctuation 198 . 199) (punctuation 197 . 198) (punctuation 196 . 197) (punctuation 195 . 196) (punctuation 194 . 195) (punctuation 193 . 194) (punctuation 192 . 193) (punctuation 191 . 192) (punctuation 190 . 191) (punctuation 189 . 190) (punctuation 188 . 189) (punctuation 187 . 188) (punctuation 186 . 187) (punctuation 185 . 186) (punctuation 184 . 185) (punctuation 183 . 184) (punctuation 182 . 183) (punctuation 181 . 182) (punctuation 180 . 181) (punctuation 179 . 180) (punctuation 178 . 179) (punctuation 177 . 178) (punctuation 176 . 177) (punctuation 175 . 176) (punctuation 174 . 175) (punctuation 173 . 174) (punctuation 172 . 173) (punctuation 171 . 172) (punctuation 170 . 171) (punctuation 169 . 170) (punctuation 168 . 169) (punctuation 167 . 168) (punctuation 166 . 167) (punctuation 165 . 166) (punctuation 164 . 165) (punctuation 163 . 164) (punctuation 162 . 163) (punctuation 161 . 162) (punctuation 160 . 161) (punctuation 159 . 160) (punctuation 158 . 159) (punctuation 157 . 158) (punctuation 156 . 157) (punctuation 155 . 156) (punctuation 154 . 155) (punctuation 153 . 154) (punctuation 152 . 153) (punctuation 151 . 152) (punctuation 150 . 151) (punctuation 149 . 150) (punctuation 148 . 149) (punctuation 147 . 148) (punctuation 146 . 147) (number 145 . 146) (punctuation 144 . 145) (punctuation 143 . 144) (punctuation 142 . 143) (punctuation 141 . 142) (punctuation 140 . 141) (punctuation 139 . 140) (punctuation 138 . 139) (number 137 . 138) (punctuation 136 . 137) (punctuation 135 . 136) (punctuation 134 . 135) (punctuation 133 . 134) (punctuation 132 . 133) (punctuation 131 . 132) (punctuation 130 . 131) (number 129 . 130) (punctuation 128 . 129) (punctuation 127 . 128) (punctuation 126 . 127) (punctuation 125 . 126) (punctuation 124 . 125) (punctuation 123 . 124) (punctuation 122 . 123) (punctuation 121 . 122) (punctuation 120 . 121) (punctuation 119 . 120) (punctuation 118 . 119) (punctuation 117 . 118) (punctuation 116 . 117) (punctuation 115 . 116) (punctuation 114 . 115) (punctuation 113 . 114) (punctuation 112 . 113) (punctuation 111 . 112) (punctuation 110 . 111) (punctuation 109 . 110) (punctuation 108 . 109) (punctuation 107 . 108) (punctuation 106 . 107) (symbol 105 . 106) (punctuation 104 . 105) (punctuation 103 . 104) (punctuation 102 . 103) (punctuation 101 . 102) (punctuation 100 . 101) (punctuation 99 . 100) (punctuation 98 . 99) (symbol 97 . 98) (punctuation 96 . 97) (punctuation 95 . 96) (punctuation 94 . 95) (punctuation 93 . 94) (punctuation 92 . 93) (punctuation 91 . 92) (punctuation 90 . 91) (punctuation 89 . 90) (punctuation 88 . 89) (punctuation 87 . 88) (punctuation 86 . 87) (punctuation 85 . 86) (punctuation 84 . 85) (punctuation 83 . 84) (punctuation 82 . 83) (punctuation 81 . 82) (punctuation 80 . 81) (punctuation 79 . 80) (punctuation 78 . 79) (punctuation 77 . 78) (punctuation 76 . 77) (punctuation 75 . 76) (punctuation 74 . 75) (punctuation 73 . 74) (punctuation 72 . 73) (punctuation 71 . 72) (punctuation 70 . 71) (punctuation 69 . 70) (punctuation 68 . 69) (punctuation 67 . 68) (punctuation 66 . 67) (punctuation 65 . 66) (punctuation 64 . 65) (punctuation 63 . 64) (punctuation 62 . 63) (punctuation 61 . 62) (punctuation 60 . 61) (punctuation 59 . 60) (punctuation 58 . 59) (punctuation 56 . 57) (number 55 . 56) (punctuation 54 . 55) (punctuation 53 . 54) (punctuation 52 . 53) (punctuation 51 . 52) (punctuation 50 . 51) (punctuation 49 . 50) (punctuation 48 . 49) (punctuation 47 . 48) (punctuation 46 . 47) (punctuation 45 . 46) (punctuation 44 . 45) (punctuation 43 . 44) (punctuation 42 . 43) (symbol 41 . 42) (punctuation 40 . 41) (punctuation 39 . 40) (punctuation 38 . 39) (punctuation 37 . 38) (punctuation 36 . 37) (punctuation 35 . 36) (punctuation 34 . 35) (punctuation 33 . 34) (punctuation 32 . 33) (punctuation 31 . 32) (punctuation 30 . 31) (punctuation 29 . 30) (punctuation 28 . 29) (punctuation 27 . 28) (punctuation 26 . 27) (symbol 25 . 26) (punctuation 24 . 25) (punctuation 23 . 24) (punctuation 22 . 23) (punctuation 21 . 22) (punctuation 20 . 21) (punctuation 19 . 20) (punctuation 18 . 19) (punctuation 17 . 18) (punctuation 16 . 17) (punctuation 15 . 16) (punctuation 14 . 15) (punctuation 13 . 14) (punctuation 12 . 13) (punctuation 11 . 12) (punctuation 10 . 11) (punctuation 9 . 10) (punctuation 8 . 9) (punctuation 7 . 8) (punctuation 6 . 7) (punctuation 5 . 6) (symbol 2 . 5) (punctuation 1 . 2))
+    )
+   (semanticdb-table "main.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [31 36]))                  
+                :type "int")
+                nil [22 98]))          
+    :file "main.cpp"
+    :pointmax 100
+    :fsize 111
+    :lastmodtime '(22436 13086 660312 962000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "hello.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [30 35]))                  
+                :type "int")
+                nil [21 74]))          
+    :file "hello.c"
+    :pointmax 75
+    :fsize 86
+    :lastmodtime '(22436 12222 874880 165000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "emacs-tutor.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Emacs Mini Manual (PART 1) - THE BASICS" section nil nil [225 3174])
+            ("/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = \"code-highlighted\";
+     elem.className   = \"code-highlighted\";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->" section nil nil [3174 4785])
+            ("*///-->" section nil nil [4785 4870])
+            ("*///-->" section nil nil [4870 6304])
+            ("var sc_project=9874755;
+var sc_invisible=1;
+var sc_security=\"c2028bb7\";
+var scJsHost = ((\"https:\" == document.location.protocol) ?
+\"https://secure.\" : \"http://www.\");
+document.write(\"<sc\"+\"ript type='text/javascript' src='\" + scJsHost+
+\"statcounter.com/counter/counter.js'>" section nil nil [6304 6399])
+            ("var sc_project=9874755;
+var sc_invisible=1;
+var sc_security=\"c2028bb7\";
+var scJsHost = ((\"https:\" == document.location.protocol) ?
+\"https://secure.\" : \"http://www.\");
+document.write(\"<sc\"+\"ript type='text/javascript' src='\" + scJsHost+
+\"statcounter.com/counter/counter.js'>" section (:members 
+              ( ("Back to Table of Contents" section (:members 
+                  ( ("Back to Table of Contents" anchor nil nil [7025 7028]))                  ) nil [7021 7107])
+                ("Emacs Mini Manual (PART 1) - THE BASICS" section (:members 
+                  ( ("Table of Contents" section (:members 
+                      ( ("Why Emacs?" anchor nil nil [7269 7272])
+                        ("Why this guide?" anchor nil nil [7310 7313])
+                        ("A bit of history" anchor nil nil [7356 7359])
+                        ("\"I don't want a complicated editor, I want something simple like Notepad\"" anchor nil nil [7403 7406])
+                        ("Installation" anchor nil nil [7507 7510])
+                        ("Linux:" anchor nil nil [7550 7553])
+                        ("Windows:" anchor nil nil [7589 7592])
+                        ("Mac OS X:" anchor nil nil [7630 7633])
+                        ("Swap Control and Capslock" anchor nil nil [7684 7687])
+                        ("Windows" anchor nil nil [7740 7743])
+                        ("Linux" anchor nil nil [7780 7783])
+                        ("Mac OS X" anchor nil nil [7818 7821])
+                        ("If you don't like to swap Capslock and Control&#x2026;" anchor nil nil [7859 7862])
+                        ("Concepts" anchor nil nil [7958 7961])
+                        ("Command" anchor nil nil [7997 8000])
+                        ("Emacs Key Notation" anchor nil nil [8037 8040])
+                        ("Emacs Keys are easy to remember" anchor nil nil [8088 8091])
+                        ("Ask for help - from Emacs" anchor nil nil [8152 8155])
+                        ("Built-in help system" anchor nil nil [8210 8213])
+                        ("Info" anchor nil nil [8265 8268])
+                        ("Man" anchor nil nil [8304 8307])
+                        ("Point" anchor nil nil [8354 8357])
+                        ("Opening files" anchor nil nil [8392 8395])
+                        ("Ido mode" anchor nil nil [8438 8441])
+                        ("Buffer" anchor nil nil [8479 8482])
+                        ("Major mode" anchor nil nil [8518 8521])
+                        ("Minor mode" anchor nil nil [8561 8564])
+                        ("Basic buffer managements" anchor nil nil [8605 8608])
+                        ("Bookmark: save locations across Emacs sessions" anchor nil nil [8663 8666])
+                        ("Basic motion commands" anchor nil nil [8743 8746])
+                        ("Useful built-in key bindings for navigating pairs" anchor nil nil [8798 8801])
+                        ("Basic editing commands" anchor nil nil [8881 8884])
+                        ("Dynamic Abbreviations" anchor nil nil [8937 8940])
+                        ("Kill ring" anchor nil nil [8992 8995])
+                        ("Mark and region" anchor nil nil [9035 9038])
+                        ("Mark ring" anchor nil nil [9084 9087])
+                        ("Global mark ring" anchor nil nil [9127 9130])
+                        ("Undo/redo" anchor nil nil [9177 9180])
+                        ("Search for text" anchor nil nil [9220 9223])
+                        ("Incremental search" anchor nil nil [9269 9272])
+                        ("Occur" anchor nil nil [9323 9326])
+                        ("Query replace" anchor nil nil [9364 9367])
+                        ("Multi-occur" anchor nil nil [9413 9416])
+                        ("Grep" anchor nil nil [9460 9463])
+                        ("Modeline" anchor nil nil [9512 9515])
+                        ("Minibuffer" anchor nil nil [9554 9557])
+                        ("Echo area" anchor nil nil [9598 9601])
+                        ("Frames" anchor nil nil [9641 9644])
+                        ("Window" anchor nil nil [9681 9684])
+                        ("Prefix Arguments" anchor nil nil [9721 9724])
+                        ("Basic file management with Dired" anchor nil nil [9771 9774])
+                        ("Enter Dired" anchor nil nil [9837 9840])
+                        ("Navigation" anchor nil nil [9884 9887])
+                        ("Create files" anchor nil nil [9930 9933])
+                        ("Visit files" anchor nil nil [9978 9981])
+                        ("File Marking" anchor nil nil [10025 10028])
+                        ("Operating on files" anchor nil nil [10073 10076])
+                        ("Deleting files" anchor nil nil [10127 10130])
+                        ("Execute shell commands in Dired" anchor nil nil [10177 10180])
+                        ("Compare files" anchor nil nil [10244 10247])
+                        ("Subdirectories" anchor nil nil [10293 10296])
+                        ("Registers" anchor nil nil [10356 10359])
+                        ("Save window configuration" anchor nil nil [10399 10402])
+                        ("Save frame configuration" anchor nil nil [10460 10463])
+                        ("Save text" anchor nil nil [10520 10523])
+                        ("Save rectangles" anchor nil nil [10565 10568])
+                        ("Save position" anchor nil nil [10616 10619])
+                        ("Save numbers" anchor nil nil [10665 10668])
+                        ("Macro" anchor nil nil [10725 10728])
+                        ("Keyboard macro ring" anchor nil nil [10764 10767])
+                        ("The Keyboard Macro Counter" anchor nil nil [10819 10822])
+                        ("Macros with Variations" anchor nil nil [10881 10884])
+                        ("Naming and Saving Macro" anchor nil nil [10939 10942])
+                        ("Edit Keyboard Macro" anchor nil nil [10998 11001])
+                        ("Interactive Keyboard Macro Editing:" anchor nil nil [11053 11056])
+                        ("Tips for using macro effectively" anchor nil nil [11124 11127])
+                        ("Version Control" anchor nil nil [11204 11207])
+                        ("Shell" anchor nil nil [11253 11256])
+                        ("Project: Browsing Linux kernel source code like a pro" anchor nil nil [11304 11307])
+                        ("Setup" anchor nil nil [11388 11391])
+                        ("Browsing the kernel source tree" anchor nil nil [11426 11429])
+                        ("Extending Emacs Primer" anchor nil nil [11502 11505])
+                        ("Conclusion" anchor nil nil [11555 11558])
+                        ("Appendix" anchor nil nil [11597 11600])
+                        ("Why Emacs? (Extended)" anchor nil nil [11637 11640])
+                        ("Other people's \"Why Emacs?\"" anchor nil nil [11692 11695])
+                        ("More on Emacs history" anchor nil nil [11753 11756])
+                        ("https://github.com/tuhdo/tuhdo.github.io" anchor nil nil [12499 12502]))                      ) nil [7199 12661])
+                    ("Why Emacs?" section (:members 
+                      ( ("Appendix" anchor nil nil [13005 13008])
+                        ("tour" anchor nil nil [13054 13057])
+                        ("Programming:
+<ul class=\"org-ul\">
+<li>Jump to any header file:
+
+
+<div class=\"figure\">
+<p><a href=\"static/jump_headers.gif\"><img src=\"static/jump_headers.gif\" alt=\"jump_headers.gif\" />" anchor nil nil [13743 13746])
+                        ("Autocompletion: Pay attention to completion candidates when
+<code>include &lt;linux/printk.h&gt;" anchor nil nil [13950 13953])
+                        ("Showing function arguments:
+
+
+<div class=\"figure\">
+<p><a href=\"static/func_args.jpg\"><img src=\"static/func_args.jpg\" alt=\"func_args.jpg\" />" anchor nil nil [14232 14235])
+                        ("Quickly comment multiple lines:
+
+
+<div class=\"figure\">
+<p><a href=\"static/comment.gif\"><img src=\"static/comment.gif\" alt=\"comment.gif\" />" anchor nil nil [14411 14414])
+                        ("GDB:
+
+<div class=\"center\">
+
+<div class=\"figure\">
+<p><a href=\"static/c-ide/gdb-many-windows.gif\"><img src=\"static/c-ide/gdb-many-windows.gif\" alt=\"gdb-many-windows.gif\" />" anchor nil nil [14582 14585])
+                        ("Diff between current editing file and latest file revision:
+
+
+<div class=\"figure\">
+<p><a href=\"static/vc-diff.jpg\"><img src=\"static/vc-diff.jpg\" alt=\"vc-diff.jpg\" />" anchor nil nil [14741 14744])
+                        ("Magit: From unstage -&gt; stage -&gt; commit -&gt; push
+
+
+<div class=\"figure\">
+<p><a href=\"static/magit.gif\"><img src=\"static/magit.gif\" alt=\"magit.gif\" />" anchor nil nil [14992 14995])
+                        ("Live Grep:
+
+
+<div class=\"figure\">
+<p><a href=\"static/live_grep.gif\"><img src=\"static/live_grep.gif\" alt=\"live_grep.gif\" />" anchor nil nil [15181 15184])
+                        ("Quickly select any file in a directory under a Version Control
+System, for example from the Linux kernel. Note that in the demos
+you may see me type in the commands. You can think of it like the
+start menu in Windows, but those commands can actually be executed
+quickly with a shortcut.
+
+
+<div class=\"figure\">
+<p><a href=\"static/helm-projectile/helm-projectile-find-files-1.gif\"><img src=\"static/helm-projectile/helm-projectile-find-files-1.gif\" alt=\"helm-projectile-find-files-1.gif\" />" anchor nil nil [15319 15322])
+                        ("Quickly select any file/directory from a previous working session:
+
+
+<div class=\"figure\">
+<p><a href=\"static/helm-buffer-list.gif\"><img src=\"static/helm-buffer-list.gif\" alt=\"helm-buffer-list.gif\" />" anchor nil nil [15745 15748])
+                        ("Emacs is a PDF Reader: I can search text in the PDF file with
+highlighting and a table of contents side by side. All can be
+controlled with keyboard.
+
+<p>
+<a href=\"static/emacs-read-pdf.gif\"><img src=\"static/emacs-read-pdf.gif\" alt=\"emacs-read-pdf.gif\" />" anchor nil nil [16040 16043])
+                        ("/" anchor nil nil [16329 16332])
+                        ("Emacs is featured in Tron Legacy" anchor nil nil [16466 16469]))                      ) nil [12661 16627])
+                    ("Why this guide?" section (:members 
+                      ( ("\"All about handling files\" is inside the <code>Files" anchor nil nil [16878 16881]))                      ) nil [16627 18402])
+                    ("A bit of history" section nil nil [18402 19501])
+                    ("\"I don't want a complicated editor, I want something simple like Notepad\"" section nil nil [19501 23254])
+                    ("Installation" section (:members 
+                      ( ("Linux:" section (:members 
+                          ( ("Emacs" anchor nil nil [24174 24177]))                          ) nil [23489 26202])
+                        ("Windows:" section (:members 
+                          ( ("http://semantic.supelec.fr/popineau/programming-emacs.html" anchor nil nil [26475 26478]))                          ) nil [26202 26846])
+                        ("Mac OS X:" section (:members 
+                          ( ("http://emacsformacosx.com/" anchor nil nil [27062 27065])
+                            ("https://github.com/railwaycat/emacs-mac-port" anchor nil nil [27209 27212]))                          ) nil [26846 27393]))                      ) nil [23254 27393])
+                    ("Swap Control and Capslock" section (:members 
+                      ( ("Windows" section (:members 
+                          ( ("Swapping Capslock and Control keys" anchor nil nil [28422 28425]))                          ) nil [28227 28608])
+                        ("Linux" section (:members 
+                          ( ("Swap caps lock and ctrl in
+ubuntu 13.10" anchor nil nil [29052 29055]))                          ) nil [28608 29217])
+                        ("Mac OS X" section (:members 
+                          ( ("Emacs on Mac OS X Leopard key
+bindings" anchor nil nil [29431 29434]))                          ) nil [29217 29599])
+                        ("If you don't like to swap Capslock and Control&#x2026;" section nil nil [29599 29965]))                      ) nil [27393 29965])
+                    ("Concepts" section (:members 
+                      ( ("Command" section nil nil [30196 31152])
+                        ("Emacs Key Notation" section (:members 
+                          ( ("EmacsWiki" anchor nil nil [31356 31359]))                          ) nil [31152 35096])
+                        ("Emacs Keys are easy to remember" section nil nil [35096 36516])
+                        ("Ask for help - from Emacs" section (:members 
+                          ( ("Built-in help system" section nil nil [36770 38645])
+                            ("Info" section nil nil [38645 39380])
+                            ("Man" section nil nil [39380 40060]))                          ) nil [36516 40060])
+                        ("Point" section nil nil [40060 40412])
+                        ("Opening files" section (:members 
+                          ( ("As you see in the demo, if for some reason, the directory at
+point does not exist, <code>ffap" anchor nil nil [43028 43031]))                          ) nil [40412 43416])
+                        ("Ido mode" section (:members 
+                          ( ("Or this:" anchor nil nil [43951 43954])
+                            ("Which is better?" anchor nil nil [44119 44122]))                          ) nil [43416 45353])
+                        ("Buffer" section nil nil [45353 47974])
+                        ("Major mode" section nil nil [47974 48768])
+                        ("Minor mode" section nil nil [48768 49323])
+                        ("Basic buffer managements" section (:members 
+                          ( ("download it" anchor nil nil [51842 51845])
+                            ("Enter <code>c-mode" anchor nil nil [52712 52715])
+                            ("Edit something in the buffer. Switch back to <code>ibuffer" anchor nil nil [54718 54721]))                          ) nil [49323 59940])
+                        ("Bookmark: save locations across Emacs sessions" section nil nil [59940 65339])
+                        ("Basic motion commands" section nil nil [65339 67485])
+                        ("Useful built-in key bindings for navigating pairs" section (:members 
+                          ( ("C-M-b" anchor nil nil [67848 67851])
+                            ("C-M-k" anchor nil nil [68106 68109])
+                            ("C-M-t" anchor nil nil [68355 68358])
+                            ("C-M-&lt;SPC&gt;" anchor nil nil [68587 68590])
+                            ("Basic editing commands" anchor nil nil [68868 68871]))                          ) nil [67485 69065])
+                        ("Basic editing commands" section nil nil [69065 70390])
+                        ("Dynamic Abbreviations" section nil nil [70390 71642])
+                        ("Kill ring" section nil nil [71642 74437])
+                        ("Mark and region" section (:members 
+                          ( ("Remember when you have to highlight a big region and for some
+reason, you lose the highlighting and have to do it all over
+again. <b>C-x C-x" anchor nil nil [77149 77152]))                          ) nil [74437 77709])
+                        ("Mark ring" section nil nil [77709 78315])
+                        ("Global mark ring" section nil nil [78315 78921])
+                        ("Undo/redo" section nil nil [78921 80794])
+                        ("Search for text" section (:members 
+                          ( ("Incremental search" section nil nil [81154 85097])
+                            ("Occur" section (:members 
+                              ( ("You can operate directly on occur buffer. In <code>*Occur*" anchor nil nil [86780 86783])
+                                ("Here are key bindings in <code>occur" anchor nil nil [87588 87591]))                              ) nil [85097 89744])
+                            ("Query replace" section nil nil [89744 90857])
+                            ("Multi-occur" section nil nil [90857 91487])
+                            ("Grep" section (:members 
+                              ( ("When you get a list of results displayed in a buffer named <code>*grep*" anchor nil nil [92511 92514]))                              ) nil [91487 95589]))                          ) nil [80794 95589])
+                        ("Modeline" section (:members 
+                          ( ("cs" anchor nil nil [96144 96147])
+                            ("If you are using the GUI version of Emacs, it will always be a
+dash. However, if you use Emacs in terminal, you cannot have multiple
+frame window like the above screenshot. Instead, Emacs creates
+<i>virtual frames" anchor nil nil [97520 97523])
+                            ("buf" anchor nil nil [97951 97954]))                          ) nil [95589 98794])
+                        ("Minibuffer" section nil nil [98794 100289])
+                        ("Echo area" section nil nil [100289 100885])
+                        ("Frames" section nil nil [100885 105157])
+                        ("Window" section nil nil [105157 112868])
+                        ("Prefix Arguments" section nil nil [112868 115791])
+                        ("Basic file management with Dired" section (:members 
+                          ( ("Dired Manual" anchor nil nil [116207 116210])
+                            ("Enter Dired" section nil nil [116387 117509])
+                            ("Navigation" section nil nil [117509 118672])
+                            ("Create files" section nil nil [118672 119828])
+                            ("Visit files" section (:members 
+                              ( ("If you  want to enter directory you visited, open <code>ibuffer" anchor nil nil [122247 122250]))                              ) nil [119828 123740])
+                            ("File Marking" section (:members 
+                              ( ("Dired Manual" anchor nil nil [124266 124269]))                              ) nil [123740 125527])
+                            ("Operating on files" section nil nil [125527 128554])
+                            ("Deleting files" section nil nil [128554 129986])
+                            ("Execute shell commands in Dired" section nil nil [129986 130908])
+                            ("Compare files" section nil nil [130908 131679])
+                            ("Subdirectories" section (:members 
+                              ( ("This is really efficient when you work on several related directories in
+a project frequently." anchor nil nil [132414 132417]))                              ) nil [131679 133280]))                          ) nil [115791 133280])
+                        ("Registers" section (:members 
+                          ( ("Save window configuration" section (:members 
+                              ( ("Exercise" anchor nil nil [137823 137826]))                              ) nil [134708 138404])
+                            ("Save frame configuration" section nil nil [138404 139916])
+                            ("Save text" section nil nil [139916 143327])
+                            ("Save rectangles" section nil nil [143327 144519])
+                            ("Save position" section nil nil [144519 147221])
+                            ("Save numbers" section nil nil [147221 148802]))                          ) nil [133280 148802])
+                        ("Macro" section (:members 
+                          ( ("After a macro is defined, it is saved in the keyboard macro ring. There is
+only one keyboard macro ring, shared by all buffers. All commands
+which operate on the keyboard macro ring use the same <b>C-x C-k" anchor nil nil [151673 151676])
+                            ("Record" anchor nil nil [153925 153928])
+                            ("Move point to the beginning of the first MAC address. <b>C-SPC" anchor nil nil [154416 154419])
+                            ("After that, move point to the beginning of the 2nd MAC address,
+<b>C-s" anchor nil nil [154828 154831])
+                            ("Repeat for the last MAC address and save it in register <b>d" anchor nil nil [155142 155145])
+                            ("Switch to the second buffer with <b>C-x o" anchor nil nil [155335 155338])
+                            ("After inserting, move point to the next empty line." anchor nil nil [155604 155607])
+                            ("Keyboard macro ring" anchor nil nil [156171 156174])
+                            ("Keyboard macro ring" section nil nil [156345 157936])
+                            ("The Keyboard Macro Counter" section nil nil [157936 164617])
+                            ("Macros with Variations" section nil nil [164617 167883])
+                            ("Naming and Saving Macro" section (:members 
+                              ( ("Record" anchor nil nil [172639 172642])
+                                ("Move point to the beginning of the first MAC address. <b>C-SPC" anchor nil nil [173251 173254])
+                                ("After that, move point to the beginning of the 2nd MAC address,
+<b>C-s" anchor nil nil [173663 173666])
+                                ("Repeat for the last MAC address and save it in register <b>d" anchor nil nil [173977 173980])
+                                ("Move point to the beginning of next line." anchor nil nil [174170 174173])
+                                ("After inserting, move point to the next empty line." anchor nil nil [174752 174755]))                              ) nil [167883 175952])
+                            ("Edit Keyboard Macro" section nil nil [175952 177831])
+                            ("Interactive Keyboard Macro Editing:" section nil nil [177831 178447])
+                            ("Tips for using macro effectively" section nil nil [178447 179862]))                          ) nil [148802 179862])
+                        ("Version Control" section (:members 
+                          ( ("GNU Emacs Tour" anchor nil nil [180084 180087])
+                            ("Magit" anchor nil nil [183902 183905])
+                            ("Magit" anchor nil nil [184291 184294]))                          ) nil [179862 185155])
+                        ("Shell" section (:members 
+                          ( ("shell" anchor nil nil [185528 185531])
+                            ("term" anchor nil nil [185999 186002])
+                            ("eshell" anchor nil nil [186442 186445])
+                            ("What is the difference between shell, eshell, and term in Emacs?" anchor nil nil [186857 186860]))                          ) nil [185155 187357]))                      ) nil [29965 187357])
+                    ("Project: Browsing Linux kernel source code like a pro" section (:members 
+                      ( ("Setup" section (:members 
+                          ( ("GNU Global" anchor nil nil [188082 188085])
+                            ("here" anchor nil nil [188241 188244])
+                            ("ctags" anchor nil nil [188588 188591])
+                            ("here" anchor nil nil [188956 188959])
+                            ("Right click on <b>Computer" anchor nil nil [189243 189246])
+                            ("Mac OSX" anchor nil nil [189984 189987])
+                            ("MacPorts" anchor nil nil [190214 190217])
+                            ("configuration
+section" anchor nil nil [193422 193425]))                          ) nil [187633 193762])
+                        ("Browsing the kernel source tree" section (:members 
+                          ( ("Then, turn on ggtags: <code>M-x ggtags-mode" anchor nil nil [194300 194303])
+                            ("After the tag database is done generating, a message at the bottom of
+your Emacs prints a message <code>GTAGS generated in ~/linux" anchor nil nil [195141 195144])
+                            ("You can visit each file by pressing <b>M-n" anchor nil nil [196182 196185])
+                            ("You can find definitions or references of a tag easily. Now, let's
+go back to the declaration <code>static int kernel_init(void *);" anchor nil nil [197647 197650])
+                            ("If you want to have a list of all the tags you visited, press <b>C-c
+M-/" anchor nil nil [199108 199111])
+                            ("If you create, edit or delete a source file in your project, upon
+saving <code>ggtags" anchor nil nil [199744 199747])
+                            ("CEDET" anchor nil nil [200171 200174]))                          ) nil [193762 201376]))                      ) nil [187357 201376])
+                    ("Extending Emacs Primer" section nil nil [201376 204738])
+                    ("Conclusion" section (:members 
+                      ( ("Worg" anchor nil nil [205369 205372]))                      ) nil [204738 205508])
+                    ("Appendix" section (:members 
+                      ( ("Why Emacs? (Extended)" section (:members 
+                          ( ("bytecode" anchor nil nil [206154 206157])
+                            ("Ergoemacs" anchor nil nil [207929 207932])
+                            ("Evil" anchor nil nil [208021 208024]))                          ) nil [205742 208442])
+                        ("Other people's \"Why Emacs?\"" section (:members 
+                          ( ("\"Why Emacs?\"" anchor nil nil [208640 208643])
+                            ("\"Why Emacs?\"" anchor nil nil [208811 208814])
+                            ("Emacs Prelude" anchor nil nil [208927 208930])
+                            ("Why I use Emacs" anchor nil nil [209088 209091])
+                            ("Why I Still Use Emacs" anchor nil nil [209215 209218])
+                            ("Emacs is sexy" anchor nil nil [209357 209360]))                          ) nil [208442 209481])
+                        ("More on Emacs history" section (:members 
+                          ( ("The Ghost in the Lisp Machine" anchor nil nil [209901 209904])
+                            ("Lisp Machine online museum" anchor nil nil [213425 213428]))                          ) nil [209481 213648]))                      ) nil [205508 213648]))                  ) nil [7107 213648]))              ) nil [6399 213648])
+            ("/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'emacs-tutor'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();" section (:members 
+              ( ("comments powered by Disqus." anchor nil nil [214310 214313])
+                ("comments powered by <span class=\"logo-disqus\">Disqus" anchor nil nil [214399 214402]))              ) nil [213648 214533]))          
+    :file "emacs-tutor.html"
+    :pointmax 214533
+    :fsize 214644
+    :lastmodtime '(22423 26388 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Makefile"
+    :major-mode 'makefile-gmake-mode
+    :tags 
+        '( ("top" variable (:default-value ("\"$(CURDIR)\"/")) nil [210 227])
+            ("ede_FILES" variable (:default-value ("Project.ede" "Makefile")) nil [227 258])
+            ("test1_SOURCES" variable (:default-value ("hello.c")) nil [259 281])
+            ("test1_OBJ" variable (:default-value ("hello.o")) nil [281 300])
+            ("CC" variable (:default-value ("gcc")) nil [300 307])
+            ("C_COMPILE" variable (:default-value ("$(CC)" "$(DEFS)" "$(INCLUDES)" "$(CPPFLAGS)" "$(CFLAGS)")) nil [307 365])
+            ("C_DEPENDENCIES" variable (:default-value ("-Wp,-MD,.deps/$(*F).P")) nil [365 402])
+            ("C_LINK" variable (:default-value ("$(CC)" "$(CFLAGS)" "$(LDFLAGS)" "-L.")) nil [402 440])
+            ("test2_cpp_SOURCES" variable (:default-value ("main.cpp")) nil [440 467])
+            ("test2.cpp_OBJ" variable (:default-value ("main.o")) nil [467 489])
+            ("CXX" variable (:default-value ("g++")) nil [489 498])
+            ("CXX_COMPILE" variable (:default-value ("$(CXX)" "$(DEFS)" "$(INCLUDES)" "$(CPPFLAGS)" "$(CFLAGS)")) nil [498 559])
+            ("CXX_DEPENDENCIES" variable (:default-value ("-Wp,-MD,.deps/$(*F).P")) nil [559 598])
+            ("CXX_LINK" variable (:default-value ("$(CXX)" "$(CFLAGS)" "$(LDFLAGS)" "-L.")) nil [598 639])
+            ("stest_SOURCES" variable (:default-value ("main.cpp")) nil [639 662])
+            ("stest_OBJ" variable (:default-value ("main.o")) nil [662 680])
+            ("VERSION" variable (:default-value ("1.0")) nil [680 692])
+            ("DISTDIR" variable (:default-value ("$(top)test_emacs-$(VERSION)")) nil [692 728])
+            ("top_builddir" variable nil nil [728 744])
+            ("DEP_FILES" variable (:default-value (".deps/hello.P" ".deps/main.P" ".deps/main.P")) nil [745 795])
+            ("all" function (:arguments ("test1" "test2.cpp" "stest")) nil [796 823])
+            ("DEPS_MAGIC" variable (:default-value ("$(shell mkdir .deps > /dev/null 2>&1 || :)")) nil [824 881])
+            ("%.o" function (:arguments ("%.c")) nil [904 988])
+            ("test1" function (:arguments ("$(test1_OBJ)")) nil [989 1039])
+            ("%.o" function (:arguments ("%.cpp")) nil [1040 1132])
+            ("test2.cpp" function (:arguments ("$(test2.cpp_OBJ)")) nil [1133 1193])
+            ("stest" function (:arguments ("$(stest_OBJ)")) nil [1194 1246])
+            ("tags" function nil nil [1247 1254])
+            ("clean" function nil nil [1256 1300])
+            (".PHONY" function (:arguments ("dist")) nil [1301 1314])
+            ("dist" function nil nil [1315 1500])
+            ("Makefile" function (:arguments ("Project.ede")) nil [1501 1699]))          
+    :file "Makefile"
+    :pointmax 1720
+    :fsize 1719
+    :lastmodtime '(22436 13100 234382 622000)
+    :unmatched-syntax '((semantic-list 891 . 902) (punctuation 890 . 891) (symbol 881 . 889) (bol 881 . 881) (symbol 817 . 822) (symbol 807 . 816) (symbol 801 . 806) (punctuation 799 . 800) (symbol 796 . 799) (bol 796 . 796))
+    )
+   )
+  :file "!root!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

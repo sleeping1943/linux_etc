@@ -1,0 +1,100 @@
+;; Object libslp/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "libslp/"
+  :tables (list 
+   (semanticdb-table "log.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("_LIBSLP_LOG_H" variable (:constant-flag t) nil [164 177])
+            ("time.h" include (:system-flag t) nil [178 195])
+            ("string" include (:system-flag t) nil [196 213])
+            ("mutex" include (:system-flag t) nil [214 230])
+            ("slp" type
+               (:members 
+                  ( ("log" type
+                       (:members 
+                          ( ("level" type
+                               (:members 
+                                  ( ("error" variable
+                                       (:constant-flag t
+                                        :default-value (429 430)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [421 430])
+                                    ("warning" variable
+                                       (:constant-flag t
+                                        :default-value (454 455)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [444 455])
+                                    ("debug" variable
+                                       (:constant-flag t
+                                        :default-value (477 478)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [469 478])
+                                    ("print" variable
+                                       (:constant-flag t
+                                        :default-value (500 501)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [492 501]))                                  
+                                :type "enum")
+                                (reparse-symbol namespacesubparts) [397 512])
+                            ("std::mutex" using (:type ("std::mutex" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [521 538])
+                            ("std::lock_guard" using (:type ("std::lock_guard" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [547 569])
+                            ("log" type
+                               (:members 
+                                  ( ("public" label nil (reparse-symbol classsubparts) [657 664])
+                                    ("log" function
+                                       (:constructor-flag t
+                                        :type ("log" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [681 688])
+                                    ("log" function
+                                       (:destructor-flag t
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [706 714])
+                                    ("m" variable
+                                       (:typemodifiers ("static")
+                                        :type ("mutex" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [803 818])
+                                    ("time_now" function
+                                       (:prototype-flag t
+                                        :typemodifiers ("static")
+                                        :arguments 
+                                          ( ("tt" variable (:type ("time_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1055 1065]))                                          
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [1027 1066])
+                                    ("trace" function
+                                       (:prototype-flag t
+                                        :typemodifiers ("static")
+                                        :arguments 
+                                          ( ("tt" variable (:type ("time_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1397 1407])
+                                            ("func" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1407 1424])
+                                            ("msg" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1424 1440])
+                                            ("l" variable (:type ("level" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1440 1448]))                                          
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [1379 1449]))                                  
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [634 1462]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [272 1464]))                  
+                :type "namespace")
+                nil [258 1465]))          
+    :file "log.h"
+    :pointmax 1495
+    :fsize 1684
+    :lastmodtime '(22425 48598 0 0)
+    :unmatched-syntax '((punctuation 1465 . 1466) (punctuation 714 . 715) (punctuation 688 . 689))
+    :lexical-table 
+        '(("_LIBSLP_LOG_H")
+          )
+
+    )
+   )
+  :file "!usr!include!libslp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

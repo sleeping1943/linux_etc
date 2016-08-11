@@ -1,0 +1,196 @@
+;; Object iseal-redis/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "iseal-redis/"
+  :tables (list 
+   (semanticdb-table "main.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("unistd.h" include (:system-flag t) nil [240 259])
+            ("stdlib.h" include (:system-flag t) nil [281 300])
+            ("iostream" include (:system-flag t) nil [324 343])
+            ("string" include (:system-flag t) nil [344 361])
+            ("hiredis/hiredis.h" include (:system-flag t) nil [389 417])
+            ("libslp/log.h" include (:system-flag t) nil [445 468])
+            ("credis.h" include nil nil [498 517])
+            ("std::cout" using (:type ("std::cout" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [520 536])
+            ("std::endl" using (:type ("std::endl" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [537 553])
+            ("std::string" using (:type ("std::string" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [554 572])
+            ("test_redis" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [589 598])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [598 610]))                  
+                :type "int")
+                nil [574 611])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [622 631])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [631 643]))                  
+                :type "int")
+                nil [613 1077])
+            ("test_redis" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1094 1103])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1103 1115]))                  
+                :type "int")
+                nil [1079 1909]))          
+    :file "main.cpp"
+    :pointmax 1910
+    :fsize 2057
+    :lastmodtime '(22444 15092 124874 422000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Makefile"
+    :major-mode 'makefile-gmake-mode
+    :tags 
+        '( ("top" variable (:default-value ("\"$(CURDIR)\"/")) nil [210 227])
+            ("ede_FILES" variable (:default-value ("Project.ede" "Makefile")) nil [227 258])
+            ("test1_SOURCES" variable (:default-value ("main.cpp" "credis.cpp")) nil [259 293])
+            ("test1_OBJ" variable (:default-value ("main.o" "credis.o")) nil [293 320])
+            ("CXX" variable (:default-value ("g++")) nil [320 329])
+            ("CXX_COMPILE" variable (:default-value ("$(CXX)" "$(DEFS)" "$(INCLUDES)" "$(CPPFLAGS)" "$(CFLAGS)")) nil [329 390])
+            ("CXX_DEPENDENCIES" variable (:default-value ("-Wp,-MD,.deps/$(*F).P")) nil [390 429])
+            ("CXX_LINK" variable (:default-value ("$(CXX)" "$(CFLAGS)" "$(LDFLAGS)" "-L.")) nil [429 470])
+            ("VERSION" variable (:default-value ("1.0")) nil [470 482])
+            ("DISTDIR" variable (:default-value ("$(top)test_redis-$(VERSION)")) nil [482 518])
+            ("top_builddir" variable nil nil [518 534])
+            ("DEP_FILES" variable (:default-value (".deps/main.P" ".deps/credis.P" ".deps/credis.P")) nil [535 588])
+            ("LDFLAGS" variable (:default-value ("${LDFLAGS}" "-lhiredis" "-lslp_utils")) nil [589 631])
+            ("all" function (:arguments ("test1")) nil [631 642])
+            ("DEPS_MAGIC" variable (:default-value ("$(shell mkdir .deps > /dev/null 2>&1 || :)")) nil [643 700])
+            ("%.o" function (:arguments ("%.cpp")) nil [723 826])
+            ("test1" function (:arguments ("$(test1_OBJ)")) nil [827 879])
+            ("test" function (:arguments ("test1")) nil [880 931])
+            ("tags" function nil nil [931 938])
+            ("clean" function nil nil [940 996])
+            (".PHONY" function (:arguments ("dist")) nil [998 1011])
+            ("dist" function nil nil [1012 1159])
+            ("Makefile" function (:arguments ("Project.ede")) nil [1160 1358]))          
+    :file "Makefile"
+    :pointmax 1379
+    :fsize 1382
+    :lastmodtime '(22444 10041 357050 258000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "credis.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("_TEST_REDIS_H" variable (:constant-flag t) nil [32 45])
+            ("string" include (:system-flag t) nil [163 180])
+            ("hiredis/hiredis.h" include (:system-flag t) nil [181 209])
+            ("std::string" using (:type ("std::string" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [211 229])
+            ("credis" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [246 253])
+                    ("credis" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("credis" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [256 265])
+                    ("credis" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [268 278])
+                    ("connect" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("ip" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [312 322])
+                            ("port" variable (:type "int") (reparse-symbol arg-sub-list) [322 331]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [299 332])
+                    ("sendata" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("cmd" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [377 388])
+                            ("key" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [388 399])
+                            ("data" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [399 411]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [364 412])
+                    ("disconnect" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [432 450])
+                    ("private" label nil (reparse-symbol classsubparts) [451 459])
+                    ("m_conn" variable
+                       (:pointer 1
+                        :type ("redisContext" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [462 483]))                  
+                :type "class")
+                nil [231 486]))          
+    :file "credis.h"
+    :pointmax 517
+    :fsize 602
+    :lastmodtime '(22444 5941 566310 1000)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("_TEST_REDIS_H")
+          )
+
+    )
+   (semanticdb-table "credis.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("credis.h" include nil nil [1 20])
+            ("libslp/log.h" include (:system-flag t) nil [21 44])
+            ("credis" function
+               (:constructor-flag t
+                :parent "credis"
+                :type ("credis" type (:type "class") nil nil))
+                nil [47 66])
+            ("credis" function
+               (:destructor-flag t
+                :parent "credis"
+                :type "void")
+                nil [69 112])
+            ("connect" function
+               (:parent "credis"
+                :arguments 
+                  ( ("ip" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [135 145])
+                    ("port" variable (:type "int") (reparse-symbol arg-sub-list) [145 154]))                  
+                :type "bool")
+                nil [114 670])
+            ("disconnect" function
+               (:parent "credis"
+                :type "void")
+                nil [672 871])
+            ("sendata" function
+               (:parent "credis"
+                :arguments 
+                  ( ("cmd" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [894 905])
+                    ("key" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [905 916])
+                    ("data" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [916 928]))                  
+                :type "bool")
+                nil [873 1263]))          
+    :file "credis.cpp"
+    :pointmax 1264
+    :fsize 1341
+    :lastmodtime '(22444 9770 393438 186000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!root!git!iseal-redis!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

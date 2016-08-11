@@ -1,0 +1,449 @@
+;; Object 桌面/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "桌面/"
+  :tables (list 
+   (semanticdb-table "配置CEDET浏览和编辑C 代码 | Emacs中文网.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("if (window.location.toString().indexOf(\"shtml?\") > 0) {
+            self.location = window.location.toString().replace(window.location.search.toString(), \"\");
+        }
+        function doccheckart(json) {
+            if (json[0].result == \"1\") {
+                self.location = \"http://www.360doc.com/noarticle.aspx\";
+            }
+        }" section nil nil [172 418])
+            ("if (window.location.toString().indexOf(\"shtml?\") > 0) {
+            self.location = window.location.toString().replace(window.location.search.toString(), \"\");
+        }
+        function doccheckart(json) {
+            if (json[0].result == \"1\") {
+                self.location = \"http://www.360doc.com/noarticle.aspx\";
+            }
+        }" section nil nil [418 585])
+            ("if (window.location.toString().indexOf(\"shtml?\") > 0) {
+            self.location = window.location.toString().replace(window.location.search.toString(), \"\");
+        }
+        function doccheckart(json) {
+            if (json[0].result == \"1\") {
+                self.location = \"http://www.360doc.com/noarticle.aspx\";
+            }
+        }" section nil nil [585 987])
+            ("if (navigator.userAgent.indexOf(\"iPhone\") > 0 || navigator.userAgent.indexOf(\"Android\") > 0 || navigator.userAgent.indexOf(\"iPod\") > 0) {  //手机端跳转
+            var patt1 = new RegExp(\"[0-9]*_[0-9]*\");
+            var url = patt1.exec(location.href);
+            if (url != \"\") {
+                self.location = \"http://www.360doc.cn/article/\" + url + \".html\";
+            }
+        }" section nil nil [987 1208])
+            ("if (navigator.userAgent.indexOf(\"iPhone\") > 0 || navigator.userAgent.indexOf(\"Android\") > 0 || navigator.userAgent.indexOf(\"iPod\") > 0) {  //手机端跳转
+            var patt1 = new RegExp(\"[0-9]*_[0-9]*\");
+            var url = patt1.exec(location.href);
+            if (url != \"\") {
+                self.location = \"http://www.360doc.cn/article/\" + url + \".html\";
+            }
+        }" section nil nil [1208 1424])
+            ("if (navigator.userAgent.indexOf(\"iPhone\") > 0 || navigator.userAgent.indexOf(\"Android\") > 0 || navigator.userAgent.indexOf(\"iPod\") > 0) {  //手机端跳转
+            var patt1 = new RegExp(\"[0-9]*_[0-9]*\");
+            var url = patt1.exec(location.href);
+            if (url != \"\") {
+                self.location = \"http://www.360doc.cn/article/\" + url + \".html\";
+            }
+        }" section nil nil [1424 2820])
+            ("配置CEDET浏览和编辑C  代码 | Emacs中文网" section nil nil [2820 2871])
+            ("window.onerror = ignoreError;
+        function ignoreError() {
+            return true;
+        }" section nil nil [2871 3049])
+            ("var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement(\"script\");
+            hm.src = \"//hm.baidu.com/hm.js?d86954201130d615136257dde062a503\";
+            var s = document.getElementsByTagName(\"script\")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();" section nil nil [3049 3262])
+            ("var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement(\"script\");
+            hm.src = \"//hm.baidu.com/hm.js?d86954201130d615136257dde062a503\";
+            var s = document.getElementsByTagName(\"script\")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();" section nil nil [3262 3454])
+            ("var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement(\"script\");
+            hm.src = \"//hm.baidu.com/hm.js?d86954201130d615136257dde062a503\";
+            var s = document.getElementsByTagName(\"script\")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();" section nil nil [3454 3852])
+            ("var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement(\"script\");
+            hm.src = \"//hm.baidu.com/hm.js?d86954201130d615136257dde062a503\";
+            var s = document.getElementsByTagName(\"script\")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();" section nil nil [3852 4086])
+            ("var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement(\"script\");
+            hm.src = \"//hm.baidu.com/hm.js?d86954201130d615136257dde062a503\";
+            var s = document.getElementsByTagName(\"script\")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();" section nil nil [4086 4306])
+            ("var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement(\"script\");
+            hm.src = \"//hm.baidu.com/hm.js?d86954201130d615136257dde062a503\";
+            var s = document.getElementsByTagName(\"script\")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();" section nil nil [4306 5077])
+            ("var baiduImagePlus = {
+            noLogo: true,
+            unionId: 'u2617463',
+            maxMiniAdCount: 0,
+            formList: [{ formId: 10 }]
+        };" section nil nil [5077 5247])
+            ("var baiduImagePlus = {
+            noLogo: true,
+            unionId: 'u2617463',
+            maxMiniAdCount: 0,
+            formList: [{ formId: 10 }]
+        };" section nil nil [5247 5459])
+            ("var baiduImagePlus = {
+            noLogo: true,
+            unionId: 'u2617463',
+            maxMiniAdCount: 0,
+            formList: [{ formId: 10 }]
+        };" section nil nil [5459 5527])
+            ("var baiduImagePlus = {
+            noLogo: true,
+            unionId: 'u2617463',
+            maxMiniAdCount: 0,
+            formList: [{ formId: 10 }]
+        };" section nil nil [5527 5748])
+            ("首&nbsp;页" section (:members 
+              ( ("首&nbsp;页" anchor nil nil [6224 6227])
+                ("首&nbsp;页" anchor nil nil [6943 6946])
+                ("阅览室" anchor nil nil [7139 7142])
+                ("馆友" anchor nil nil [7332 7335])
+                ("我的图书馆" anchor nil nil [7525 7528])
+                ("登录" anchor nil nil [8154 8157])
+                ("注册" anchor nil nil [8545 8548])
+                ("留言交流" anchor nil nil [8669 8672])
+                ("留言交流" anchor nil nil [9255 9258])
+                ("网文摘手" anchor nil nil [9332 9335])
+                ("手机客户端" anchor nil nil [9410 9413])
+                ("帮助" anchor nil nil [9511 9514])
+                ("配置CEDET浏览和编辑C  代码 | Emacs中文网" section (:members 
+                  ( ("xrzs" anchor nil nil [14677 14680])
+                    ("文章来源" anchor nil nil [14942 14945]))                  ) nil [14438 17470])
+                ("用CEDET浏览和编辑C++代码" section (:members 
+                  ( ("meteor1113" anchor nil nil [17573 17576])
+                    ("发表评论" anchor nil nil [17701 17704])
+                    ("阅读评论" anchor nil nil [17787 17790])
+                    ("Meteor Liu" anchor nil nil [17950 17953])
+                    ("1 前言" anchor nil nil [18389 18392])
+                    ("2 简介" anchor nil nil [18457 18460])
+                    ("2.1 EDE" anchor nil nil [18533 18536])
+                    ("2.2 Semantic" anchor nil nil [18610 18613])
+                    ("2.3 SRecode" anchor nil nil [18692 18695])
+                    ("2.4 Cogre" anchor nil nil [18773 18776])
+                    ("2.5 Speedbar" anchor nil nil [18852 18855])
+                    ("2.6 EIEIO" anchor nil nil [18934 18937])
+                    ("3 安装" anchor nil nil [19029 19032])
+                    ("4 semantic配置" anchor nil nil [19097 19100])
+                    ("4.1 功能介绍" anchor nil nil [19181 19184])
+                    ("4.1.1 semantic-load-enable-minimum-features" anchor nil nil [19271 19274])
+                    ("4.1.2 semantic-load-enable-code-helpers" anchor nil nil [19390 19393])
+                    ("4.1.3 semantic-load-enable-gaudy-code-helpers" anchor nil nil [19505 19508])
+                    ("4.1.4 semantic-load-enable-excessive-code-helpers" anchor nil nil [19626 19629])
+                    ("4.1.5 semantic-load-enable-semantic-debugging-helpers" anchor nil nil [19751 19754])
+                    ("4.2 基本配置" anchor nil nil [19904 19907])
+                    ("4.3 代码跳转" anchor nil nil [19982 19985])
+                    ("4.4 代码补全" anchor nil nil [20060 20063])
+                    ("5 EDE配置" anchor nil nil [20154 20157])
+                    ("6 其它" anchor nil nil [20225 20228])
+                    ("6.1 可视化书签" anchor nil nil [20301 20304])
+                    ("6.2 pluse" anchor nil nil [20380 20383])
+                    ("6.3 h/cpp切换" anchor nil nil [20459 20462])
+                    ("6.4 代码折叠" anchor nil nil [20540 20543])
+                    ("6.4.1 semantic-tag-folding" anchor nil nil [20630 20633])
+                    ("6.4.2 senator-fold-tag" anchor nil nil [20732 20735])
+                    ("7 Todo" anchor nil nil [20870 20873])
+                    ("1 前言" section (:members 
+                      ( ("emacs" anchor nil nil [21057 21060])
+                        ("cedet" anchor nil nil [21149 21152])
+                        ("http://alexott.net/en/writings/emacs-devenv/EmacsCedet.html" anchor nil nil [21364 21367]))                      ) nil [21002 21887])
+                    ("2 简介" section (:members 
+                      ( ("2.1 EDE" section nil nil [22033 22207])
+                        ("2.2 Semantic" section nil nil [22207 22396])
+                        ("2.3 SRecode" section nil nil [22396 22601])
+                        ("2.4 Cogre" section nil nil [22601 22784])
+                        ("2.5 Speedbar" section nil nil [22784 22973])
+                        ("2.6 EIEIO" section nil nil [22973 23153]))                      ) nil [21887 23153])
+                    ("3 安装" section (:members 
+                      ( ("这儿" anchor nil nil [23209 23212])
+                        ("?" anchor nil nil [23457 23460])
+                        ("View Code" anchor nil nil [23648 23651]))                      ) nil [23153 24202])
+                    ("4 semantic配置" section (:members 
+                      ( ("4.1 功能介绍" section (:members 
+                          ( ("?" anchor nil nil [24626 24629])
+                            ("View Code" anchor nil nil [24817 24820])
+                            ("4.1.1 semantic-load-enable-minimum-features" section nil nil [26083 26824])
+                            ("4.1.2 semantic-load-enable-code-helpers" section (:members 
+                              ( ("imenu显示semantic分析出的类" anchor nil nil [27143 27146])
+                                ("用ssemantic在minibuffer显示函数原型" anchor nil nil [27722 27725])
+                                ("senator菜单" anchor nil nil [28352 28355]))                              ) nil [26824 29026])
+                            ("4.1.3 semantic-load-enable-gaudy-code-helpers" section (:members 
+                              ( ("在head-line上显示函数名" anchor nil nil [29357 29360])
+                                ("semantic标记函数头" anchor nil nil [30040 30043])
+                                ("semantic自动补全当前光标内容" anchor nil nil [30600 30603])
+                                ("semantic自动补全当前光标内容" anchor nil nil [31095 31098]))                              ) nil [29026 31625])
+                            ("4.1.4 semantic-load-enable-excessive-code-helpers" section (:members 
+                              ( ("semantic高亮当前函数" anchor nil nil [32009 32012])
+                                ("semantic智能高亮当前符号" anchor nil nil [32681 32684])
+                                ("highlight-symbol" anchor nil nil [33105 33108])
+                                ("这儿" anchor nil nil [33281 33284])
+                                ("semantic用颜色区分方法的访问权限" anchor nil nil [33556 33559]))                              ) nil [31625 34144])
+                            ("4.1.5 semantic-load-enable-semantic-debugging-helpers" section (:members 
+                              ( ("semantic高亮最近修改" anchor nil nil [34488 34491])
+                                ("semantic用红色下划线标记不匹配的语法" anchor nil nil [35237 35240])
+                                ("semantic在mode-line上显示解析状态" anchor nil nil [35813 35816])
+                                ("semantic在mode-line上显示解析状态" anchor nil nil [36273 36276]))                              ) nil [34144 36973]))                          ) nil [24340 36973])
+                        ("4.2 基本配置" section (:members 
+                          ( ("?" anchor nil nil [37224 37227])
+                            ("View Code" anchor nil nil [37415 37418])
+                            ("?" anchor nil nil [39839 39842])
+                            ("View Code" anchor nil nil [40030 40033]))                          ) nil [36973 44796])
+                        ("4.3 代码跳转" section (:members 
+                          ( ("?" anchor nil nil [45187 45190])
+                            ("View Code" anchor nil nil [45378 45381])
+                            ("?" anchor nil nil [46259 46262])
+                            ("View Code" anchor nil nil [46450 46453])
+                            ("?" anchor nil nil [50683 50686])
+                            ("View Code" anchor nil nil [50874 50877]))                          ) nil [44796 51641])
+                        ("4.4 代码补全" section (:members 
+                          ( ("http://alexott.net/en/writings/emacs-devenv/EmacsCedet.html#sec9" anchor nil nil [52187 52190])
+                            ("semantic的补全菜单" anchor nil nil [52754 52757])
+                            ("?" anchor nil nil [53189 53192])
+                            ("View Code" anchor nil nil [53380 53383]))                          ) nil [51641 54740]))                      ) nil [24202 54740])
+                    ("5 EDE配置" section (:members 
+                      ( ("?" anchor nil nil [54885 54888])
+                        ("View Code" anchor nil nil [55076 55079])
+                        ("EDE的Project菜单" anchor nil nil [55665 55668])
+                        ("用Speedbar显示project的目录树" anchor nil nil [56191 56194])
+                        ("?" anchor nil nil [57193 57196])
+                        ("View Code" anchor nil nil [57384 57387]))                      ) nil [54740 60072])
+                    ("6 其它" section (:members 
+                      ( ("6.1 可视化书签" section (:members 
+                          ( ("?" anchor nil nil [60401 60404])
+                            ("View Code" anchor nil nil [60592 60595])
+                            ("cedet的可视化标签" anchor nil nil [61373 61376]))                          ) nil [60174 61837])
+                        ("6.2 pluse" section (:members 
+                          ( ("这儿" anchor nil nil [61962 61965]))                          ) nil [61837 62095])
+                        ("6.3 h/cpp切换" section (:members 
+                          ( ("?" anchor nil nil [62310 62313])
+                            ("View Code" anchor nil nil [62501 62504])
+                            ("?" anchor nil nil [63169 63172])
+                            ("View Code" anchor nil nil [63360 63363])
+                            ("?" anchor nil nil [64360 64363])
+                            ("View Code" anchor nil nil [64551 64554]))                          ) nil [62095 73410])
+                        ("6.4 代码折叠" section nil nil [73410 73522])
+                        ("6.4.1 semantic-tag-folding" section (:members 
+                          ( ("?" anchor nil nil [73922 73925])
+                            ("View Code" anchor nil nil [74113 74116])
+                            ("cedet的代码折叠" anchor nil nil [75011 75014])
+                            ("?" anchor nil nil [75602 75605])
+                            ("View Code" anchor nil nil [75793 75796])
+                            ("?" anchor nil nil [77067 77070])
+                            ("View Code" anchor nil nil [77258 77261])
+                            ("?" anchor nil nil [78557 78560])
+                            ("View Code" anchor nil nil [78748 78751])
+                            ("终端下的semantic-tag-folding" anchor nil nil [79548 79551])
+                            ("?" anchor nil nil [80077 80080])
+                            ("View Code" anchor nil nil [80268 80271]))                          ) nil [73522 83022])
+                        ("6.4.2 senator-fold-tag" section nil nil [83022 83550]))                      ) nil [60072 83550])
+                    ("7 Todo" section (:members 
+                      ( ("http://github.com/meteor1113/dotemacs/blob/master/init-site.el" anchor nil nil [83782 83785])
+                        ("autoload" anchor nil nil [86967 86970])
+                        ("C" anchor nil nil [87057 87060])
+                        ("calc" anchor nil nil [87130 87133])
+                        ("CEDET" anchor nil nil [87208 87211])
+                        ("cogre" anchor nil nil [87293 87296])
+                        ("company-mode" anchor nil nil [87374 87377])
+                        ("eclipse" anchor nil nil [87476 87479])
+                        ("ede" anchor nil nil [87563 87566])
+                        ("editor" anchor nil nil [87638 87641])
+                        ("eieio" anchor nil nil [87722 87725])
+                        ("Emacs" anchor nil nil [87803 87806])
+                        ("emacser" anchor nil nil [87888 87891])
+                        ("emacser.com" anchor nil nil [87975 87978])
+                        ("gdb" anchor nil nil [88074 88077])
+                        ("highlight" anchor nil nil [88149 88152])
+                        ("highlight-symbol" anchor nil nil [88242 88245])
+                        ("IDE" anchor nil nil [88356 88359])
+                        ("imenu" anchor nil nil [88435 88438])
+                        ("lambda" anchor nil nil [88516 88519])
+                        ("meteor" anchor nil nil [88600 88603])
+                        ("meteor1113" anchor nil nil [88684 88687])
+                        ("mode-line" anchor nil nil [88780 88783])
+                        ("org" anchor nil nil [88877 88880])
+                        ("pulse" anchor nil nil [88952 88955])
+                        ("screenshot" anchor nil nil [89033 89036])
+                        ("semantic" anchor nil nil [89129 89132])
+                        ("senator" anchor nil nil [89219 89222])
+                        ("snippet" anchor nil nil [89306 89309])
+                        ("speedbar" anchor nil nil [89393 89396])
+                        ("srecode" anchor nil nil [89483 89486])
+                        ("text" anchor nil nil [89570 89573])
+                        ("windows" anchor nil nil [89648 89651])
+                        ("yasnippet" anchor nil nil [89739 89742])
+                        ("代码折叠" anchor nil nil [89832 89835])
+                        ("代码补全" anchor nil nil [89942 89945])
+                        ("光标" anchor nil nil [90052 90055])
+                        ("插件" anchor nil nil [90140 90143])
+                        ("淡入淡出" anchor nil nil [90228 90231])
+                        ("补全" anchor nil nil [90338 90341])
+                        ("配色" anchor nil nil [90426 90429])
+                        ("配色" anchor nil nil [90505 90508])
+                        ("颜色" anchor nil nil [90593 90596])
+                        ("鼠标" anchor nil nil [90681 90684])
+                        ("相关日志" section (:members 
+                          ( ("Emacs长啥样" anchor nil nil [90824 90827])
+                            ("用CEDET浏览和编辑C++代码(续) – 使用Emacs 23.2内置的CEDET" anchor nil nil [90923 90926])
+                            ("我的Emacs配置文件 － DEA" anchor nil nil [91101 91104])
+                            ("在Emacs下用C/C++编程" anchor nil nil [91219 91222])
+                            ("Emacs才是世界上最强的IDE － 高亮光标处单词" anchor nil nil [91342 91345])
+                            ("CEDET" anchor nil nil [91583 91586])
+                            ("IDE" anchor nil nil [91678 91681])
+                            ("中级" anchor nil nil [91767 91770])
+                            ("自动补全" anchor nil nil [91857 91860])
+                            ("发表评论" anchor nil nil [92492 92495])
+                            ("Trackback" anchor nil nil [92582 92585])
+                            ("#1" anchor nil nil [93273 93276])
+                            ("回复" anchor nil nil [93369 93372])
+                            ("引用" anchor nil nil [93487 93490])
+                            ("回复" anchor nil nil [93985 93988])
+                            ("@cs007" anchor nil nil [94462 94465])
+                            ("回复" anchor nil nil [94627 94630])
+                            ("@Meteor Liu" anchor nil nil [95099 95102])
+                            ("回复" anchor nil nil [95244 95247])
+                            ("#2" anchor nil nil [95939 95942])
+                            ("回复" anchor nil nil [96035 96038])
+                            ("引用" anchor nil nil [96153 96156])
+                            ("回复" anchor nil nil [96856 96859])
+                            ("@LieMi" anchor nil nil [97332 97335])
+                            ("回复" anchor nil nil [97645 97648])
+                            ("@Meteor Liu" anchor nil nil [98115 98118])
+                            ("回复" anchor nil nil [99023 99026])
+                            ("回复" anchor nil nil [100134 100137])
+                            ("@LieMi" anchor nil nil [100611 100614])
+                            ("回复" anchor nil nil [101219 101222])
+                            ("@Meteor Liu" anchor nil nil [101690 101693])
+                            ("回复" anchor nil nil [102354 102357])
+                            ("ahei" anchor nil nil [102731 102734])
+                            ("@LieMi" anchor nil nil [102894 102897])
+                            ("回复" anchor nil nil [103014 103017])
+                            ("@ahei" anchor nil nil [103479 103482])
+                            ("回复" anchor nil nil [103597 103600])
+                            ("ahei" anchor nil nil [104001 104004])
+                            ("@Meteor Liu" anchor nil nil [104164 104167])
+                            ("回复" anchor nil nil [104281 104284])
+                            ("#3" anchor nil nil [104997 105000])
+                            ("回复" anchor nil nil [105093 105096])
+                            ("引用" anchor nil nil [105211 105214])
+                            ("回复" anchor nil nil [105783 105786])
+                            ("@LieMi" anchor nil nil [106254 106257])
+                            ("回复" anchor nil nil [106389 106392])
+                            ("@LieMi" anchor nil nil [106855 106858])
+                            ("回复" anchor nil nil [107113 107116])
+                            ("@LieMi" anchor nil nil [107590 107593])
+                            ("回复" anchor nil nil [107832 107835])
+                            ("@Meteor Liu" anchor nil nil [108302 108305])
+                            ("回复" anchor nil nil [108513 108516])
+                            ("#4" anchor nil nil [109234 109237])
+                            ("回复" anchor nil nil [109330 109333])
+                            ("引用" anchor nil nil [109448 109451])
+                            ("回复" anchor nil nil [109999 110002])
+                            ("ahei" anchor nil nil [110379 110382])
+                            ("@shangwen" anchor nil nil [110543 110546])
+                            ("回复" anchor nil nil [110671 110674])
+                            ("#5" anchor nil nil [111358 111361])
+                            ("回复" anchor nil nil [111454 111457])
+                            ("引用" anchor nil nil [111572 111575])
+                            ("回复" anchor nil nil [111864 111867])
+                            ("#6" anchor nil nil [112544 112547])
+                            ("回复" anchor nil nil [112640 112643])
+                            ("引用" anchor nil nil [112758 112761])
+                            ("回复" anchor nil nil [113119 113122])
+                            ("ahei" anchor nil nil [113499 113502])
+                            ("@zhugewei" anchor nil nil [113663 113666])
+                            ("回复" anchor nil nil [113791 113794])
+                            ("#7" anchor nil nil [114478 114481])
+                            ("回复" anchor nil nil [114574 114577])
+                            ("引用" anchor nil nil [114692 114695])
+                            ("shangwen" anchor nil nil [114985 114988])
+                            ("回复" anchor nil nil [115367 115370])
+                            ("ahei" anchor nil nil [115436 115439])
+                            ("@shangwen" anchor nil nil [115524 115527])
+                            ("回复" anchor nil nil [115634 115637])
+                            ("回复" anchor nil nil [115806 115809])
+                            ("ahei" anchor nil nil [116186 116189])
+                            ("回复" anchor nil nil [116384 116387])
+                            ("@shangwen" anchor nil nil [116869 116872])
+                            ("回复" anchor nil nil [117084 117087])
+                            ("ahei" anchor nil nil [117458 117461])
+                            ("@shangwen" anchor nil nil [117622 117625])
+                            ("回复" anchor nil nil [117772 117775])
+                            ("@shangwen" anchor nil nil [118251 118254])
+                            ("回复" anchor nil nil [118425 118428])
+                            ("转藏到我的图书馆" anchor nil nil [119500 119503])
+                            ("xrzs" anchor nil nil [121408 121411])
+                            ("《编辑器》" anchor nil nil [121643 121646])
+                            ("以文找文" anchor nil nil [121844 121847])
+                            ("举报" anchor nil nil [122065 122068])
+                            ("更多" anchor nil nil [123493 123496])
+                            ("程序员的emacs配置大全(cedet+ecb+cscop..." anchor nil nil [123780 123783])
+                            ("在Emacs下用C/C  编程" anchor nil nil [124017 124020])
+                            ("用emacs 建立开发环境,安装ecb和cedet的..." anchor nil nil [124240 124243])
+                            ("让Emacs功能强于source Insight" anchor nil nil [124478 124481])
+                            ("emacs - GTD实践---使用Emacs和Org-mode..." anchor nil nil [124712 124715])
+                            ("神器中的神器org" anchor nil nil [124957 124960])
+                            ("一起来 - 程序员的编辑器——VIM" anchor nil nil [125174 125177])
+                            ("Emacs初学者必知必会" anchor nil nil [125396 125399])
+                            ("xrzs" anchor nil nil [130702 130705])
+                            ("xrzs" anchor nil nil [131107 131110])
+                            ("xrzs" anchor nil nil [131353 131356]))                          ) nil [90772 132692]))                      ) nil [83550 132692]))                  ) nil [17470 132692]))              ) nil [5748 132692])
+            ("isfollow(155970);" section (:members 
+              ( ("六爻用神选取与取象的关系_日辰月建对六爻的作用" anchor nil nil [133199 133202])
+                ("五行类象、干支类象、食神类象" anchor nil nil [133397 133400])
+                ("玄空飞星风水基础" anchor nil nil [133584 133587])
+                ("中华文化的起源、古中医学的源头、尽在天文历法！无法超越的科学！无法超越的经典！" anchor nil nil [133766 133769])
+                ("揭秘！这才是真正的八字术" anchor nil nil [133946 133949])
+                ("Linux 开发模式带给我们的思考（上）" anchor nil nil [134099 134102])
+                ("程序员的emacs配置大全(cedet+ecb+cscope+gdb-ui)-jzj" anchor nil nil [135104 135107])
+                ("睡觉的诀窍" anchor nil nil [135283 135286])
+                ("西南大学_学生资助网_勤工助学" anchor nil nil [135427 135430])
+                ("用性感的尾巴highlight-tail标记最近的修改 | 极限手指" anchor nil nil [135582 135585])
+                ("幸福在哪里 Xp's Blog" anchor nil nil [135756 135759])
+                ("Xp's Blog" anchor nil nil [135911 135914])
+                ("智力与大脑体积无关 _ 生活频道_汕头信息港" anchor nil nil [136060 136063])
+                ("关于将文件中特定字符替换成回车的问题？·百家电脑学院" anchor nil nil [136222 136225])
+                ("Basecamp：项目管理和协作翻译, 翻译公司,英语翻译,兼职翻译, 翻译兼职, 英文翻译" anchor nil nil [136388 136391])
+                ("关闭" anchor nil nil [137758 137761])
+                ("关闭" anchor nil nil [138469 138472]))              ) nil [132692 139091])
+            ("GerLookingUserInfo(1,155970,1,0,'-1',-1,10,0);OutputSource('http%3a%2f%2femacser.com%2fcedet.htm%23sec-6.4','');OutputCategory(155970,34,'%e3%80%8a%e7%bc%96%e8%be%91%e5%99%a8%e3%80%8b');OutputLastNextArt('Emacs+Outline+Mode','http://www.360doc.com/content/10/1123/22/155970_71859718.shtml',0);" section nil nil [139091 139320])
+            ("GerLookingUserInfo(1,155970,1,0,'-1',-1,10,0);OutputSource('http%3a%2f%2femacser.com%2fcedet.htm%23sec-6.4','');OutputCategory(155970,34,'%e3%80%8a%e7%bc%96%e8%be%91%e5%99%a8%e3%80%8b');OutputLastNextArt('Emacs+Outline+Mode','http://www.360doc.com/content/10/1123/22/155970_71859718.shtml',0);" section (:members 
+              ( ("" anchor nil nil [211231 211234])
+                ("" anchor nil nil [211282 211285]))              ) nil [139320 211366]))          
+    :file "配置CEDET浏览和编辑C 代码 | Emacs中文网.html"
+    :pointmax 211366
+    :fsize 227870
+    :lastmodtime '(22436 10683 793981 868000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!root!桌面!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
