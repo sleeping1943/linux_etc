@@ -14,7 +14,8 @@
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(custom-enabled-themes (quote (deeper-blue)))
- '(ede-project-directories (quote ("/root" "/root/git/iseal-redis/.deps" "/root/git/iseal-redis")))
+ '(ede-project-directories (quote ("/root/git/iseal-pb2var" "/root" "/root/git/iseal-redis/.deps" "/root/git/iseal-redis")))
+ '(semantic-mode t)
  '(show-paren-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -37,15 +38,16 @@
 ;;设置F5打开／关闭概要窗口
 (global-set-key [f5] 'sr-speedbar-toggle)
 
+;;显示时间
+(display-time-mode 1)
 ;;时间使用24小时制
-;;(setq display-time-24hr-format t)
-
+(setq display-time-24hr-format t)
 ;;时间显示包括日期和具体时间
 (setq display-time-day-and-date t)
 
 ;;设置打开文件的缺省路径，这里audio，我的主要工作目录就是在这里
 ;;默认的路径为“～/”
-(setq default-directory "～/git")
+;(setq default-directory "～")
 
 ;;打开括号匹配显示模式
 (setq show-paren-mode t) 
