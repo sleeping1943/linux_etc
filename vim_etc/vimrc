@@ -84,6 +84,7 @@ highlight Comment ctermfg=green guifg=green
 "高亮当前行，深灰背景色，前景色白色"
 set cursorline
 hi CursorLine  cterm=NONE   ctermbg=darkgray ctermfg=lightblue
+set cursorcolumn
 hi CursorColumn cterm=NONE ctermbg=darkgray ctermfg=lightblue
 "高亮匹配的字符，蓝底灰字"
 hi Search term=standout ctermfg=darkgray ctermbg=lightblue
@@ -91,16 +92,27 @@ hi Search term=standout ctermfg=darkgray ctermbg=lightblue
 set relativenumber
 
 
-"<F1>打开/关闭目录树边框(左)"
+"<F8>打开/关闭目录树边框(左)"
 map <F8> :call Echo()<CR>
 func! Echo()
-    :echo expand("%")
-    :echo expand("%:p")
-    :echo expand("%:h")
-    :echo expand("%:t")
-    :echo expand("%:r")
-    :echo expand("%:e")
+    :echo  "****************************************************************************************************"
+    :echo  "                                                        菜单显示                                     "
+    :echo  "                                                <F1>打开终端帮助手册                                 "
+    :echo  "                                                <F2>打开/关闭目录树边框(左)                          "
+    :echo  "                                                <F3>打开新的标签页                                   "
+    :echo  "                                                <F4>关闭当前标签页                                   "
+    :echo  "                                                <F5>Tlist开启、关闭，边框(右)                        "
+    :echo  "                                                <F6>新建makefile模板                                 "
+    :echo  "                                                <F7>新建文件头模板(.sh/.h/.c/.cc/.cpp/makefile)      "
+    :echo  "                                                <F8>开启本提示手册                                   "
+    :echo  "                                                <F9>开启/取消匹配高亮                                "
+    :echo  "                                                <F10>选中终端菜单                                    "
+    :echo  "                                                <F11>设置/取消全屏                                   "
+    :echo  "                                                <F12> 切换.h/.cpp                                    "
+    :echo  "****************************************************************************************************"
 endfunc
+"<F10>打开quickfix"
+map <F10> :copen<CR>
 "<F2>打开/关闭目录树边框(左)"
 map <F2> :NERDTreeToggle<CR>
 "<F3>打开新的标签页"
@@ -177,7 +189,7 @@ func! Buildmkfile()
     call append(line(".")+52,"")
 endfunc
 "
-"<F7>新建makefile模板"
+"<F7>新建文件头模板(.sh/.h/.c/.cc/.cpp/makefile)"
 map <F7> :call Buildheader()<CR> 
 func! Buildheader()
     if &filetype == 'sh'
@@ -259,11 +271,13 @@ let Tlist_Show_One_File = 1            "不同时显示多个文件的tag，只�
 let Tlist_Exit_OnlyWindow = 1          "如果taglist窗口是最后一个窗口，则退出vim
 let Tlist_Use_Right_Window = 1         "在右侧窗口中显示taglist窗口
 
+"切换.h/.cpp"
+map <F12> :FSHere<CR> 
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/vundle
 call vundle#begin()
 
-Plugin 'gmarik/Vundle.vim'
+Plugin 'gmarik/vundle'
 "自动补全括号"
 "Plugin 'jiangmiao/auto-pairs'
 "快速注释"
@@ -275,11 +289,10 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 "与git集成"
 Plugin 'https://github.com/tpope/vim-fugitive.git'
-"Plugin 'vim-scripts/AutoComplPop'"
+".h/.cpp切换"
+Plugin 'derekwyatt/vim-fswitch'
 "自动补全"
 Plugin 'Valloric/YouCompleteMe'
-"Plugin 'nathanaelkane/vim-indent-guides'"
-Plugin 'vim-scripts/vimgdb'
 call vundle#end()
 filetype plugin indent on
 
@@ -289,13 +302,20 @@ set laststatus=2
 highlight StatusLine guifg=SlateBlue guibg=red  
 highlight StatusLineNC guifg=Gray guibg=White  
 let g:airline#extensions#tabline#enable=1
+"YCM补全菜单颜色
+"highlight Pmenu ctermfg=lightblue ctermbg=yellow guifg=#005f87 guibg=#EEE8D5
+highlight Pmenu ctermfg=cyan ctermbg=darkgray
+"补全菜单选中项
+"highlight PmenuSel cterm=bold,underline  ctermfg=2 ctermbg=3 guifg=#AFD700 guibg=#106900
+highlight PmenuSel ctermfg=green ctermbg=darkblue
+"支持在注释中补全
+let g:ycm_complete_in_comments=1
 "设置自动补全插件的配置文件"
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 
 hi Error cterm=bold ctermfg=red ctermbg=yellow
 hi WarningMsg ctermfg=red ctermbg=blue
 
-Bundle 'vim-scripts/vgdb'
 Bundle 'vim-scripts/DoxygenToolkit.vim'
 
 
