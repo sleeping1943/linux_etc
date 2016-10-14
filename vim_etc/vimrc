@@ -109,6 +109,7 @@ func! Echo()
     :echo  "                                                <F10>选中终端菜单                                    "
     :echo  "                                                <F11>设置/取消全屏                                   "
     :echo  "                                                <F12> 切换.h/.cpp                                    "
+    :echo  "                                                ,td 开启任务列表                                     "
     :echo  "****************************************************************************************************"
 endfunc
 "<F2>打开/关闭目录树边框(左)"
@@ -295,11 +296,24 @@ Plugin 'derekwyatt/vim-fswitch'
 Plugin 'Valloric/YouCompleteMe'
 "类和函数提示"
 Plugin 'majutsushi/tagbar'
+"多列编辑插件(会影响功能键如<F2><F3>等，方向键等)
+"Plugin 'vim-multiple-cursors'
+"管理TODO
+Plugin 'TaskList.vim'
+"doxygen注释
+Plugin 'vim-scripts/DoxygenToolkit.vim'
 call vundle#end()
 filetype plugin indent on
 
 " 总是显示状态行 "
 set laststatus=2
+
+"tasklist.vim任务列表插件配置
+let g:tlTokenList = ["FIXME","TODO","HACK","NOTE","WARN","MODIFY"]
+"绑定快捷键，默认是<Leader>t
+nnoremap ,td :TaskList<CR>
+
+"nnoremap ,hl :set hlsearch!<CR> 
 
 highlight StatusLine guifg=SlateBlue guibg=red  
 highlight StatusLineNC guifg=Gray guibg=White  
@@ -318,6 +332,5 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/
 hi Error cterm=bold ctermfg=red ctermbg=yellow
 hi WarningMsg ctermfg=red ctermbg=blue
 
-Bundle 'vim-scripts/DoxygenToolkit.vim'
 
 
