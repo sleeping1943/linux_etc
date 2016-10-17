@@ -275,6 +275,10 @@ let Tlist_Use_Right_Window = 1         "在右侧窗口中显示taglist窗口
 "切换.h/.cpp"
 map <F12> :FSHere<CR> 
 filetype off
+
+"如果提示vundle错误，则删除现有的vundle，
+"使用命令git clone https://github.com/gmarik/vundle.git
+"重新下载vundle即可
 set rtp+=~/.vim/bundle/vundle
 call vundle#begin()
 
