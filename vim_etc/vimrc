@@ -54,7 +54,7 @@ endif
 filetype plugin on
 
 if &term=="xterm"
-     set t_Co=8
+     set t_Co=4
      set t_Sb=[4%dm
      set t_Sf=[3%dm
 endif
@@ -78,9 +78,14 @@ set rulerformat=%20(%2*%<%f%=\ %m%r\ %3l\ %c\ %p%%%)
  set cmdheight=2 
 "使回格键可用"
 set backspace=2
+
+
+colorscheme torte
+
 "设置注释为绿色 ctermbg(注释背景色) ctermfg(注释前景色)
 "cterm(彩色终端,bold,加粗,underline,下划线)"
 highlight Comment ctermfg=green guifg=green 
+
 "高亮当前行，深灰背景色，前景色白色"
 set cursorline
 hi CursorLine  cterm=NONE   ctermbg=darkgray ctermfg=lightblue
@@ -88,6 +93,7 @@ set cursorcolumn
 hi CursorColumn cterm=NONE ctermbg=darkgray ctermfg=lightblue
 "高亮匹配的字符，蓝底灰字"
 hi Search term=standout ctermfg=darkgray ctermbg=lightblue
+hi Search gui=standout guifg=darkgray guibg=yellow
 "相对行的位置"
 set relativenumber
 
@@ -325,9 +331,11 @@ let g:airline#extensions#tabline#enable=1
 "YCM补全菜单颜色
 "highlight Pmenu ctermfg=lightblue ctermbg=yellow guifg=#005f87 guibg=#EEE8D5
 highlight Pmenu ctermfg=cyan ctermbg=darkgray
+highlight Pmenu guifg=cyan guibg=darkgray
 "补全菜单选中项
 "highlight PmenuSel cterm=bold,underline  ctermfg=2 ctermbg=3 guifg=#AFD700 guibg=#106900
 highlight PmenuSel ctermfg=green ctermbg=darkblue
+highlight PmenuSel guifg=green guibg=darkblue
 "支持在注释中补全
 let g:ycm_complete_in_comments=1
 "设置自动补全插件的配置文件"
