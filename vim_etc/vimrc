@@ -312,6 +312,11 @@ Plugin 'majutsushi/tagbar'
 Plugin 'TaskList.vim'
 "doxygen注释
 Plugin 'vim-scripts/DoxygenToolkit.vim'
+"显示文件的git状态
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+"多窗口共享左侧文件窗口
+Plugin 'jistr/vim-nerdtree-tabs'
+
 call vundle#end()
 filetype plugin indent on
 
@@ -344,5 +349,29 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/
 hi Error cterm=bold ctermfg=red ctermbg=yellow
 hi WarningMsg ctermfg=red ctermbg=blue
 
+" 显示行号
+let NERDTreeShowLineNumbers=1
+let NERDTreeAutoCenter=1
+" 是否显示隐藏文件
+let NERDTreeShowHidden=1
+" 设置宽度
+let NERDTreeWinSize=31
+" 在终端启动vim时，共享NERDTree
+let g:nerdtree_tabs_open_on_console_startup=1
+" 忽略以下类型文件的显示
+let NERDTreeIgnore=['\.pyc','\~$','\.swp']
+" 显示书签列表
+let NERDTreeShowBookmarks=1
 
-
+"文件状态与git对应图标
+let g:NERDTreeIndicatorMapCustom = {
+    \ "Modified"  : "✹",
+    \ "Staged"    : "✚",
+    \ "Untracked" : "✭",
+    \ "Renamed"   : "➜",
+    \ "Unmerged"  : "═",
+    \ "Deleted"   : "✖",
+    \ "Dirty"     : "✗",
+    \ "Clean"     : "✔︎",
+    \ "Unknown"   : "?"
+    \ }
