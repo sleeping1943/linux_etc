@@ -69,8 +69,9 @@ set ai
 "显示行号"
 set nu
 "tab键=4个空格"
+set noexpandtab
 set ts=4
-set expandtab
+set sw=4
 "显示所在行的行号和列号"
 set ruler
 set rulerformat=%20(%2*%<%f%=\ %m%r\ %3l\ %c\ %p%%%)
