@@ -134,7 +134,7 @@ map <F10> :TlistToggle<CR>
 func! Buildmkfile()
     call setline (1,"out?=$(PWD)")
     call append(line("."),"CXX:=g++")
-    call append(line(".")+1,"target:=")
+    call append(line(".")+1,"target:=test_")
     call append(line(".")+2,"suffix:=")
     call append(line(".")+3,"cpps:=$(wildcard ./src/*.cpp)")
     call append(line(".")+4,"hpps:=$(wildcard ./src/*.hpp)")
@@ -167,7 +167,7 @@ func! Buildmkfile()
     call append(line(".")+27,"")
 
     call append(line(".")+28,"$(out)/$(target):$(objs)")
-	call append(line(".")+29,"\t$(CXX) $(LDFLAGS) $@ $^ -lslp_utils ")
+	call append(line(".")+29,"\t$(CXX) $(LDFLAGS) $@ $^ -lshelper -llua ")
     call append(line(".")+30,"")
 
     call append(line(".")+31,"$(objs):%.o:%.cpp $(ERR)")
