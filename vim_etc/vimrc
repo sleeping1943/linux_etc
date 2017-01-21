@@ -99,8 +99,13 @@ hi Search gui=standout guifg=darkgray guibg=yellow
 set relativenumber
 
 
+"<F8>显示时间"
+map <F8> :call Showtime()<CR>
+func! Showtime()
+	:Calendar -view=clock
+endfunc
 "<F8>打开/关闭目录树边框(左)"
-map <F8> :call Echo()<CR>
+"map <F8> :call Echo()<CR>
 func! Echo()
     :echo  "****************************************************************************************************"
     :echo  "                                                        菜单显示                                     "
@@ -317,6 +322,8 @@ Plugin 'vim-scripts/DoxygenToolkit.vim'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 "多窗口共享左侧文件窗口
 Plugin 'jistr/vim-nerdtree-tabs'
+"日历
+Plugin 'itchyny/calendar.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -358,7 +365,7 @@ let NERDTreeShowHidden=1
 " 设置宽度
 let NERDTreeWinSize=31
 " 在终端启动vim时，共享NERDTree
-let g:nerdtree_tabs_open_on_console_startup=1
+let g:nerdtree_tabs_open_on_console_startup=0
 " 忽略以下类型文件的显示
 let NERDTreeIgnore=['\.pyc','\~$','\.swp']
 " 显示书签列表
@@ -376,3 +383,8 @@ let g:NERDTreeIndicatorMapCustom = {
     \ "Clean"     : "✔︎",
     \ "Unknown"   : "?"
     \ }
+
+let g:calender_date_endian = "big"
+let g:calender_date_separator = "-"
+let g:calender_view = "clock"
+let g:calender_views = ['year','day','month','week','clock','days']
