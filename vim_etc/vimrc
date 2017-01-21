@@ -324,7 +324,6 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'jistr/vim-nerdtree-tabs'
 "日历
 Plugin 'itchyny/calendar.vim'
-
 call vundle#end()
 filetype plugin indent on
 
@@ -335,6 +334,13 @@ set laststatus=2
 let g:tlTokenList = ["FIXME","TODO","HACK","NOTE","WARN","MODIFY"]
 "绑定快捷键，默认是<Leader>t
 nnoremap ,td :TaskList<CR>
+nnoremap ,calc 	:Calendar -view=clock -positon=topleft<CR>
+nnoremap ,caly 	:Calendar -view=year -position=here<CR>
+nnoremap ,calw 	:Calendar -view=week -position=here<CR>
+nnoremap ,calm 	:Calendar -view=month -position=here<CR>
+nnoremap ,cald 	:Calendar -view=day -position=here<CR>
+nnoremap ,calds :Calendar -view=days -position=here<CR>
+nnoremap ,cal 	:Calendar -positon=topright<CR>
 
 "nnoremap ,hl :set hlsearch!<CR> 
 
