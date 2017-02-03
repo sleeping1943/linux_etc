@@ -122,7 +122,7 @@ func! Echo()
     :echo  "                                                <F11>设置/取消全屏                                   "
     :echo  "                                                <F12> 切换.h/.cpp                                    "
     :echo  "                                                ,td 开启任务列表                                     "
-	:echo  "					,calc(clock) caly(year)	calw(week) calm(month) cald(day) calds(days) cal 	 	 "
+	:echo  "					,cc(clock) cy(year) cw(week) cm(month) cd(day) cds(days) cal 	 	 "
     :echo  "*********************************************************************************************************************************************"
 
 endfunc
@@ -336,12 +336,12 @@ set laststatus=2
 let g:tlTokenList = ["FIXME","TODO","HACK","NOTE","WARN","MODIFY"]
 "绑定快捷键，默认是<Leader>t
 nnoremap ,td :TaskList<CR>
-nnoremap ,calc 	:Calendar -view=clock -positon=topleft<CR>
-nnoremap ,caly 	:Calendar -view=year -position=here<CR>
-nnoremap ,calw 	:Calendar -view=week -position=here<CR>
-nnoremap ,calm 	:Calendar -view=month -position=here<CR>
-nnoremap ,cald 	:Calendar -view=day -position=here<CR>
-nnoremap ,calds :Calendar -view=days -position=here<CR>
+nnoremap ,cc 	:Calendar -view=clock -positon=topleft<CR>
+nnoremap ,cy 	:Calendar -view=year -position=here<CR>
+nnoremap ,cw 	:Calendar -view=week -position=here<CR>
+nnoremap ,cm 	:Calendar -view=month -position=here<CR>
+nnoremap ,cd 	:Calendar -view=day -position=here<CR>
+nnoremap ,cds 	:Calendar -view=days -position=here<CR>
 nnoremap ,cal 	:Calendar -positon=topright<CR>
 
 "nnoremap ,hl :set hlsearch!<CR> 
