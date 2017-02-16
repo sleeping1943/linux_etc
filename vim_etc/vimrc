@@ -332,6 +332,11 @@ filetype plugin indent on
 " 总是显示状态行 "
 set laststatus=2
 
+"let g:airline_theme="luna"
+let g:airline#extensions#tabline#enabled=1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+
 "tasklist.vim任务列表插件配置
 let g:tlTokenList = ["FIXME","TODO","HACK","NOTE","WARN","MODIFY"]
 "绑定快捷键，默认是<Leader>t
@@ -344,11 +349,14 @@ nnoremap ,cd 	:Calendar -view=day -position=here<CR>
 nnoremap ,cds 	:Calendar -view=days -position=here<CR>
 nnoremap ,cal 	:Calendar -positon=topright<CR>
 
+nnoremap <C-N>  :bn <CR>
+nnoremap <C-P>  :bp <CR>
 "nnoremap ,hl :set hlsearch!<CR> 
 
 highlight StatusLine guifg=SlateBlue guibg=red  
 highlight StatusLineNC guifg=Gray guibg=White  
-let g:airline#extensions#tabline#enable=1
+set t_Co=256
+"set g:airline_theme="durant"
 "YCM补全菜单颜色
 "highlight Pmenu ctermfg=lightblue ctermbg=yellow guifg=#005f87 guibg=#EEE8D5
 highlight Pmenu ctermfg=cyan ctermbg=darkgray
