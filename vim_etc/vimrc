@@ -310,8 +310,6 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'https://github.com/tpope/vim-fugitive.git'
 ".h/.cpp切换"
 Plugin 'derekwyatt/vim-fswitch'
-"自动补全"
-Plugin 'Valloric/YouCompleteMe'
 "类和函数提示"
 Plugin 'majutsushi/tagbar'
 "多列编辑插件(会影响功能键如<F2><F3>等，方向键等)
@@ -326,6 +324,11 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'jistr/vim-nerdtree-tabs'
 "日历
 Plugin 'itchyny/calendar.vim'
+"自动补全
+"用Vundle安装好之后,进入YCM的文件夹.vim/bundle/YouCompleteMe会找到install.sh脚本文件。
+"这个时候如果你需要C语言系的语义补全你需要在运行install.sh脚本之后手动加入命令--clang-completer，
+"即可进行自动安装，此时YCM会去Clang的官网去下载libclang.so来作为YCM语义补全的支持。"
+Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 filetype plugin indent on
 
